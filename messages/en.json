@@ -1,0 +1,46 @@
+{
+  "Theme": "Theme",
+  "AppLayout": {
+    "home": "Home",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "LocaleSwitcher": {
+    "de": "German",
+    "en": "English",
+    "ar": "Arabic",
+    "es": "Spanish",
+    "fa": "Persian",
+    "fr": "French",
+    "ja": "Japanese",
+    "ru": "Russian",
+    "label": "Language"
+  },
+  "LoginPage": {
+    "credentials": "Credentials: jane@doe.com / next-intl",
+    "description": "Please enter your details.",
+    "email": "Email",
+    "invalidCredentials": "Please check your credentials.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Please enter a password.",
+    "login": "Sign in",
+    "password": "Password",
+    "title": "Welcome back"
+  },
+  "HomePage": {
+    "title": "Home",
+    "description": "Welcome Home!"
+  },
+  "ProfilePage": {
+    "title": "Profile",
+    "description": "Here is your profile page!"
+  },
+  "ErrorPage": {
+    "title": "Something went wrong!",
+    "description": "We've unfortunately encountered an error. You can try to <retry>reload the page</retry> you were visiting."
+  },
+  "NotFoundPage": {
+    "title": "Page not found.",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  }
+}

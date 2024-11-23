@@ -1,0 +1,46 @@
+{
+  "Theme": "Tema",
+  "AppLayout": {
+    "home": "Inicio",
+    "logout": "Cerrar sesión",
+    "profile": "Perfil"
+  },
+  "LocaleSwitcher": {
+    "de": "Alemán",
+    "en": "Inglés",
+    "ar": "Árabe",
+    "es": "Español",
+    "fa": "Persa",
+    "fr": "Francés",
+    "ja": "Japonés",
+    "ru": "Ruso",
+    "label": "Idioma"
+  },
+  "LoginPage": {
+    "credentials": "Credenciales: jane@doe.com / next-intl",
+    "description": "Por favor, ingrese sus datos.",
+    "email": "Correo electrónico",
+    "invalidCredentials": "Por favor, revise sus credenciales.",
+    "invalidEmail": "Por favor, ingrese una dirección de correo válida.",
+    "invalidPassword": "Por favor, ingrese una contraseña.",
+    "login": "Iniciar sesión",
+    "password": "Contraseña",
+    "title": "Bienvenido de nuevo"
+  },
+  "HomePage": {
+    "title": "Inicio",
+    "description": "¡Bienvenido a casa!"
+  },
+  "ProfilePage": {
+    "title": "Perfil",
+    "description": "¡Aquí está tu página de perfil!"
+  },
+  "ErrorPage": {
+    "title": "¡Algo salió mal!",
+    "description": "<p>Desafortunadamente, hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Página no encontrada",
+    "description": "Por favor, revisa la barra de direcciones del navegador o usa la navegación para ir a una página conocida."
+  }
+}

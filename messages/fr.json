@@ -1,0 +1,46 @@
+{
+  "Theme": "Thème",
+  "AppLayout": {
+    "home": "Accueil",
+    "logout": "Déconnexion",
+    "profile": "Profil"
+  },
+  "LocaleSwitcher": {
+    "de": "Allemand",
+    "en": "Anglais",
+    "ar": "Arabe",
+    "es": "Espagnol",
+    "fa": "Persan",
+    "fr": "Français",
+    "ja": "Japonais",
+    "ru": "Russe",
+    "label": "Langue"
+  },
+  "LoginPage": {
+    "credentials": "Identifiants : jane@doe.com / next-intl",
+    "description": "Veuillez entrer vos informations.",
+    "email": "E-mail",
+    "invalidCredentials": "Veuillez vérifier vos identifiants.",
+    "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+    "invalidPassword": "Veuillez entrer un mot de passe.",
+    "login": "Se connecter",
+    "password": "Mot de passe",
+    "title": "Bienvenue à nouveau"
+  },
+  "HomePage": {
+    "title": "Accueil",
+    "description": "Bienvenue chez vous !"
+  },
+  "ProfilePage": {
+    "title": "Profil",
+    "description": "Voici votre page de profil !"
+  },
+  "ErrorPage": {
+    "title": "Quelque chose a mal tourné!",
+    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</retry> que vous visitiez.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page non trouvée",
+    "description": "Veuillez vérifier à nouveau la barre d'adresse du navigateur ou utilisez la navigation pour accéder à une page connue."
+  }
+}

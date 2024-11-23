@@ -1,0 +1,46 @@
+{
+  "Theme": "テーマ",
+  "AppLayout": {
+    "home": "ホーム",
+    "logout": "ログアウト",
+    "profile": "プロフィール"
+  },
+  "LocaleSwitcher": {
+    "de": "ドイツ語",
+    "en": "英語",
+    "ar": "アラビア語",
+    "es": "スペイン語",
+    "fa": "ペルシア語",
+    "fr": "フランス語",
+    "ja": "日本語",
+    "ru": "ロシア語",
+    "label": "言語"
+  },
+  "LoginPage": {
+    "credentials": "認証情報：jane@doe.com / next-intl",
+    "description": "詳細を入力してください。",
+    "email": "メールアドレス",
+    "invalidCredentials": "認証情報を確認してください。",
+    "invalidEmail": "有効なメールアドレスを入力してください。",
+    "invalidPassword": "パスワードを入力してください。",
+    "login": "ログイン",
+    "password": "パスワード",
+    "title": "お帰りなさい"
+  },
+  "HomePage": {
+    "title": "ホーム",
+    "description": "おかえりなさい！"
+  },
+  "ProfilePage": {
+    "title": "プロフィール",
+    "description": "こちらはあなたのプロフィールページです！"
+  },
+  "ErrorPage": {
+    "title": "問題が発生しました！",
+    "description": "<p>申し訳ありませんが、エラーが発生しました。</p><p>訪れていたページを<retry>再読み込み</retry>してみてください。</p>"
+  },
+  "NotFoundPage": {
+    "title": "ページが見つかりません",
+    "description": "ブラウザのアドレスバーを再度確認するか、ナビゲーションを使用して既知のページに移動してください。"
+  }
+}

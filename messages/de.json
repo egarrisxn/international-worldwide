@@ -1,0 +1,46 @@
+{
+  "Theme": "Thema",
+  "AppLayout": {
+    "home": "Start",
+    "logout": "Abmelden",
+    "profile": "Profil"
+  },
+  "LocaleSwitcher": {
+    "de": "Deutsch",
+    "en": "Englisch",
+    "ar": "Arabisch",
+    "es": "Spanisch",
+    "fa": "Persisch",
+    "fr": "Französisch",
+    "ja": "Japanisch",
+    "ru": "Russisch",
+    "label": "Sprache"
+  },
+  "LoginPage": {
+    "credentials": "Anmeldedaten: jane@doe.com / next-intl",
+    "description": "Bitte geben Sie Ihre Daten ein.",
+    "email": "Email",
+    "invalidCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "invalidPassword": "Bitte geben Sie ein Passwort ein.",
+    "login": "Anmelden",
+    "password": "Passwort",
+    "title": "Willkommen zurück"
+  },
+  "HomePage": {
+    "title": "Startseite",
+    "description": "Willkommen zu Hause!"
+  },
+  "ProfilePage": {
+    "title": "Profil",
+    "description": "Hier ist deine Profilseite!"
+  },
+  "ErrorPage": {
+    "title": "Etwas ist schief gelaufen!",
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Seite nicht gefunden",
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+  }
+}
