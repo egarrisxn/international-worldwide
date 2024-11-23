@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint src && prettier src --check",
+    "format:fix": "prettier src --write"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
