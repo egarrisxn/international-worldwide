@@ -29,11 +29,11 @@
   },
   "HomePage": {
     "title": "Home",
-    "description": "Welcome Home!"
+    "description": "Welcome Home! This is the place where you can find the latest updates, featured articles, and helpful resources to get started with our platform. Explore our content and enjoy your stay!"
   },
   "ProfilePage": {
     "title": "Profile",
-    "description": "Here is your profile page!"
+    "description": "Here is your profile page! View and update your personal information, track your activity, and manage your preferences. Customize your experience to suit your needs and stay connected with your community."
   },
   "ErrorPage": {
     "title": "Something went wrong!",

@@ -1,6 +1,9 @@
 const GithubIcon = () => (
   <>
-    <a href="https://github.com/egarrisxn/next-intl-app" target="_blank">
+    <a
+      href="https://github.com/egarrisxn/international-worldwide"
+      target="_blank"
+    >
       <div className="p-2 rounded-lg transition-colors text-button hover:bg-dropdownHover">
         <div className="size-6 ransition-colors ">
           <svg

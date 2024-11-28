@@ -29,11 +29,11 @@
   },
   "HomePage": {
     "title": "Startseite",
-    "description": "Willkommen zu Hause!"
+    "description": "Willkommen zu Hause! Hier finden Sie die neuesten Updates, ausgewählte Artikel und hilfreiche Ressourcen, um mit unserer Plattform zu beginnen. Erkunden Sie unsere Inhalte und genießen Sie Ihren Aufenthalt!"
   },
   "ProfilePage": {
     "title": "Profil",
-    "description": "Hier ist deine Profilseite!"
+    "description": "Hier ist deine Profilseite! Sieh dir deine persönlichen Informationen an, aktualisiere sie, verfolge deine Aktivitäten und verwalte deine Einstellungen. Passe deine Erfahrung an deine Bedürfnisse an und bleibe mit deiner Community in Verbindung."
   },
   "ErrorPage": {
     "title": "Etwas ist schief gelaufen!",

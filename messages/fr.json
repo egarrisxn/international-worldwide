@@ -29,11 +29,11 @@
   },
   "HomePage": {
     "title": "Accueil",
-    "description": "Bienvenue chez vous !"
+    "description": "Bienvenue chez vous ! C'est l'endroit où vous pouvez trouver les dernières mises à jour, des articles en vedette et des ressources utiles pour commencer à utiliser notre plateforme. Explorez notre contenu et profitez de votre séjour !"
   },
   "ProfilePage": {
     "title": "Profil",
-    "description": "Voici votre page de profil !"
+    "description": "Voici votre page de profil ! Consultez et mettez à jour vos informations personnelles, suivez votre activité et gérez vos préférences. Personnalisez votre expérience pour répondre à vos besoins et restez connecté avec votre communauté."
   },
   "ErrorPage": {
     "title": "Quelque chose a mal tourné!",

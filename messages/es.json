@@ -29,11 +29,11 @@
   },
   "HomePage": {
     "title": "Inicio",
-    "description": "¡Bienvenido a casa!"
+    "description": "¡Bienvenido a casa! Este es el lugar donde puedes encontrar las últimas actualizaciones, artículos destacados y recursos útiles para comenzar con nuestra plataforma. ¡Explora nuestro contenido y disfruta tu estancia!"
   },
   "ProfilePage": {
     "title": "Perfil",
-    "description": "¡Aquí está tu página de perfil!"
+    "description": "¡Aquí está tu página de perfil! Visualiza y actualiza tu información personal, realiza un seguimiento de tu actividad y gestiona tus preferencias. Personaliza tu experiencia para adaptarla a tus necesidades y mantente conectado con tu comunidad."
   },
   "ErrorPage": {
     "title": "¡Algo salió mal!",
