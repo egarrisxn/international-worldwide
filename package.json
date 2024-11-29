@@ -1,6 +1,8 @@
 {
   "name": "international-worldwide",
-  "version": "0.1.0",
+  "description": "Doing it worldwide!",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
