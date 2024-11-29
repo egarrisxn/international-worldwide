@@ -1,6 +1,7 @@
 'use client';
 import {useState, useEffect} from 'react';
 import Quiz from './quiz';
+import Button from './button';
 
 export default function QuizContainer({questions}) {
   const [answers, setAnswers] = useState(
@@ -56,13 +57,14 @@ export default function QuizContainer({questions}) {
         isSubmitted={isSubmitted}
       />
       <div className="pt-4 flex flex-row gap-2 items-center">
-        <button
+        <Button
           onClick={handleSubmit}
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+          variant="primary"
+          size="medium"
           disabled={!allAnswered || isSubmitted}
         >
           Submit
-        </button>
+        </Button>
         {isSubmitted && <p>Your score has been submitted!</p>}
       </div>
     </>

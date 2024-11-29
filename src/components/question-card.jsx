@@ -8,7 +8,7 @@ export default function QuestionCard({
   onAnswer
 }) {
   return (
-    <div className="bg-slate-100 shadow-md rounded-md p-6">
+    <div className="bg-background-secondary shadow-md rounded-md p-6">
       <h2 className="text-xl font-semibold mb-4">{question.question}</h2>
       <RadioGroup.Root
         className="flex flex-row flex-wrap gap-2"
@@ -19,6 +19,7 @@ export default function QuestionCard({
         {question.options.map((option, index) => {
           const isSelected = answer === index;
           const isCorrect = index === question.answer;
+
           let optionClass =
             'p-2 text-sm xl:text-base border rounded-md hover:bg-gray-100 cursor-pointer';
 
@@ -40,7 +41,7 @@ export default function QuestionCard({
             <RadioGroup.Item
               key={index}
               value={index.toString()}
-              className={optionClass}
+              className={`btn-secondary ${optionClass}`} // Apply secondary button styling here
             >
               <span>{option}</span>
             </RadioGroup.Item>

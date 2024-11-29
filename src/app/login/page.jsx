@@ -82,17 +82,17 @@ export default function LoginPage() {
         }
         header={
           <div className="text-center">
-            <UsersIcon className="mx-auto h-14 w-14 text-slate-900" />
-            <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-900">
+            <UsersIcon className="mx-auto h-14 w-14 " />
+            <h1 className="mt-4 text-4xl font-semibold tracking-tight ">
               {t('title')}
             </h1>
-            <p className="mt-2 text-slate-700">{t('description')}</p>
+            <p className="mt-2 text-slate-500">{t('description')}</p>
           </div>
         }
         submit={
           <div>
             <FormButton type="submit">{t('login')}</FormButton>
-            <p className="mt-4 text-center text-sm text-slate-700">
+            <p className="mt-4 text-center text-sm text-slate-500">
               {t('credentials')}
             </p>
           </div>

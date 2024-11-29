@@ -14,7 +14,6 @@ export default async function VercelQuizPage() {
       <h1 className="text-4xl 2xl:text-5xl pb-2 font-semibold tracking-tight">
         Vercel
       </h1>
-
       <QuizContainer questions={questions} />
     </>
   );

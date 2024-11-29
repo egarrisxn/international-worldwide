@@ -14,7 +14,6 @@ export default async function ReactQuizPage() {
       <h1 className="text-4xl 2xl:text-5xl pb-2 font-semibold tracking-tight">
         React
       </h1>
-
       <QuizContainer questions={questions} />
     </>
   );

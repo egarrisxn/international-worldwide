@@ -1,5 +1,6 @@
 import {useTranslations} from 'next-intl';
 import Link from 'next/link';
+import Button from '../../../components/button';
 
 export default function QuizPage() {
   const t = useTranslations('QuizPage');
@@ -12,20 +13,14 @@ export default function QuizPage() {
         {t('description')}
       </p>
       <div className="flex gap-2 pt-2 flex-row">
-        <Link className="sm:text-lg 2xl:text-xl" href="/secure/quiz/nextjs">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">
-            Next.js
-          </button>
+        <Link href="/secure/quiz/nextjs">
+          <Button>Next.js</Button>
         </Link>
-        <Link className="sm:text-lg 2xl:text-xl" href="/secure/quiz/react">
-          <button className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">
-            React
-          </button>
+        <Link href="/secure/quiz/react">
+          <Button>React</Button>
         </Link>
-        <Link className="sm:text-lg 2xl:text-xl" href="/secure/quiz/vercel">
-          <button className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">
-            Vercel
-          </button>
+        <Link href="/secure/quiz/vercel">
+          <Button>Vercel</Button>
         </Link>
       </div>
     </>
