@@ -15,6 +15,7 @@ export default function AppLayout({children}) {
           <nav className="flex flex-row items-center gap-6">
             <NavLink href="/secure">{t('home')}</NavLink>
             <NavLink href="/secure/profile">{t('profile')}</NavLink>
+            <NavLink href="/secure/quiz">{t('quiz')}</NavLink>
           </nav>
           <div className="flex flex-row items-center gap-3">
             <ThemeSwitcher />

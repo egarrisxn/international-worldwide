@@ -5,7 +5,7 @@ const GithubIcon = () => (
       target="_blank"
     >
       <div className="p-2 rounded-lg transition-colors text-button hover:bg-dropdownHover">
-        <div className="size-6 ransition-colors ">
+        <div className="size-6 transition-colors ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"

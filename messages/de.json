@@ -3,7 +3,8 @@
   "AppLayout": {
     "home": "Start",
     "logout": "Abmelden",
-    "profile": "Profil"
+    "profile": "Profil",
+    "quiz": "Quiz"
   },
   "LocaleSwitcher": {
     "de": "Deutsch",
@@ -34,6 +35,10 @@
   "ProfilePage": {
     "title": "Profil",
     "description": "Hier ist deine Profilseite! Sieh dir deine persönlichen Informationen an, aktualisiere sie, verfolge deine Aktivitäten und verwalte deine Einstellungen. Passe deine Erfahrung an deine Bedürfnisse an und bleibe mit deiner Community in Verbindung."
+  },
+  "QuizPage": {
+    "title": "Quiz",
+    "description": "Hier ist deine Quiz-Seite! Wählen Sie eine der Kategorien unten aus, testen Sie Ihr Wissen zu diesem Thema und vergleichen Sie Ihre Punktzahl mit anderen!"
   },
   "ErrorPage": {
     "title": "Etwas ist schief gelaufen!",

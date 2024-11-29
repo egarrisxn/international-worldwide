@@ -3,7 +3,8 @@
   "AppLayout": {
     "home": "Accueil",
     "logout": "Déconnexion",
-    "profile": "Profil"
+    "profile": "Profil",
+    "quiz": "Quiz"
   },
   "LocaleSwitcher": {
     "de": "Allemand",
@@ -34,6 +35,10 @@
   "ProfilePage": {
     "title": "Profil",
     "description": "Voici votre page de profil ! Consultez et mettez à jour vos informations personnelles, suivez votre activité et gérez vos préférences. Personnalisez votre expérience pour répondre à vos besoins et restez connecté avec votre communauté."
+  },
+  "QuizPage": {
+    "title": "Quiz",
+    "description": "Voici votre page de quiz ! Sélectionnez l'une des catégories ci-dessous, testez vos connaissances sur le sujet et comparez votre score avec celui des autres !"
   },
   "ErrorPage": {
     "title": "Quelque chose a mal tourné!",

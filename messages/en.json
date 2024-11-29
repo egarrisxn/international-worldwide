@@ -3,7 +3,8 @@
   "AppLayout": {
     "home": "Home",
     "logout": "Logout",
-    "profile": "Profile"
+    "profile": "Profile",
+    "quiz": "Quiz"
   },
   "LocaleSwitcher": {
     "de": "German",
@@ -34,6 +35,10 @@
   "ProfilePage": {
     "title": "Profile",
     "description": "Here is your profile page! View and update your personal information, track your activity, and manage your preferences. Customize your experience to suit your needs and stay connected with your community."
+  },
+  "QuizPage": {
+    "title": "Quiz",
+    "description": "Here is your quiz page! Select one the categories below, test your knowledge on the subject, and track your score against others!"
   },
   "ErrorPage": {
     "title": "Something went wrong!",

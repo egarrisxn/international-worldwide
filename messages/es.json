@@ -3,7 +3,8 @@
   "AppLayout": {
     "home": "Inicio",
     "logout": "Cerrar sesión",
-    "profile": "Perfil"
+    "profile": "Perfil",
+    "quiz": "Concurso"
   },
   "LocaleSwitcher": {
     "de": "Alemán",
@@ -34,6 +35,10 @@
   "ProfilePage": {
     "title": "Perfil",
     "description": "¡Aquí está tu página de perfil! Visualiza y actualiza tu información personal, realiza un seguimiento de tu actividad y gestiona tus preferencias. Personaliza tu experiencia para adaptarla a tus necesidades y mantente conectado con tu comunidad."
+  },
+  "QuizPage": {
+    "title": "Concurso",
+    "description": "¡Aquí está tu página de cuestionarios! ¡Selecciona una de las categorías a continuación, pon a prueba tu conocimiento sobre el tema y compara tu puntuación con la de otros!"
   },
   "ErrorPage": {
     "title": "¡Algo salió mal!",

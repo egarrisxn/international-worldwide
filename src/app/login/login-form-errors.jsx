@@ -22,7 +22,7 @@ export default function LoginFormErrors({errors}) {
         pending && 'opacity-60'
       )}
     >
-      <ExclamationTriangleIcon className="inline-block h-5 w-5" /> {error}
+      <ExclamationTriangleIcon className="inline-block size-5" /> {error}
     </p>
   ));
 }
