@@ -1,5 +1,5 @@
-const GithubIcon = () => (
-  <>
+export default function GitHubIcon() {
+  return (
     <a
       href="https://github.com/egarrisxn/international-worldwide"
       target="_blank"
@@ -31,7 +31,5 @@ const GithubIcon = () => (
         </div>
       </div>
     </a>
-  </>
-);
-
-export default GithubIcon;
+  );
+}

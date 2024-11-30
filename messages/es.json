@@ -1,10 +1,10 @@
 {
   "Theme": "Tema",
-  "AppLayout": {
+  "PrivateLayout": {
     "home": "Inicio",
     "logout": "Cerrar sesión",
     "profile": "Perfil",
-    "quiz": "Concurso"
+    "quiz": "Cuestionario"
   },
   "LocaleSwitcher": {
     "de": "Alemán",
@@ -42,7 +42,7 @@
   },
   "ErrorPage": {
     "title": "¡Algo salió mal!",
-    "description": "<p>Desafortunadamente, hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>"
+    "description": "Desafortunadamente, hemos encontrado un error. Puedes intentar recargar la página que estabas visitando."
   },
   "NotFoundPage": {
     "title": "Página no encontrada",

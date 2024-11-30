@@ -1,6 +1,6 @@
 {
   "Theme": "Theme",
-  "AppLayout": {
+  "PrivateLayout": {
     "home": "Home",
     "logout": "Logout",
     "profile": "Profile",
@@ -42,7 +42,7 @@
   },
   "ErrorPage": {
     "title": "Something went wrong!",
-    "description": "We've unfortunately encountered an error. You can try to <retry>reload the page</retry> you were visiting."
+    "description": "We've unfortunately encountered an error. You can try to reload the page you were visiting."
   },
   "NotFoundPage": {
     "title": "Page not found.",

@@ -31,7 +31,7 @@ export default async function LocaleLayout({children}) {
       suppressHydrationWarning
     >
       <head>
-        <title>Int'l Worldwide'</title>
+        <title>Int'l Worldwide</title>
       </head>
       <body className={clsx('flex min-h-[100vh] flex-col')}>
         <ThemeProvider

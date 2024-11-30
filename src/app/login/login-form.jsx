@@ -8,7 +8,7 @@ export default function LoginForm({action, fields, header, submit}) {
   return (
     <form
       action={formAction}
-      className="mx-auto my-20 w-full max-w-[24rem] px-4"
+      className="mx-auto mt-12 mb-20 w-full max-w-[24rem] px-4"
     >
       {header}
       <div className="mb-10 mt-14">

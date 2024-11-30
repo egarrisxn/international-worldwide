@@ -6,8 +6,6 @@ import {getTranslations} from 'next-intl/server';
 import {z} from 'zod';
 import FormButton from '../../components/form-button';
 import FormField from '../../components/form-field';
-import ThemeSwitcher from '../../components/theme-switcher';
-import LocaleSwitcher from '../../components/locale-switcher';
 import {loginUser} from '../../services/session';
 import LoginForm from './login-form';
 
@@ -45,7 +43,7 @@ async function loginAction(prev, data) {
       errors: result.error.flatten()
     };
   } else {
-    redirect('/secure');
+    redirect('/home');
   }
 }
 
@@ -55,10 +53,6 @@ export default function LoginPage() {
 
   return (
     <>
-      <div className="absolute flex flex-row right-8 top-8">
-        <ThemeSwitcher />
-        <LocaleSwitcher />
-      </div>
       <LoginForm
         key={locale}
         action={loginAction}

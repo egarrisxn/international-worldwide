@@ -1,6 +1,6 @@
 {
   "Theme": "Thème",
-  "AppLayout": {
+  "PrivateLayout": {
     "home": "Accueil",
     "logout": "Déconnexion",
     "profile": "Profil",
@@ -42,7 +42,7 @@
   },
   "ErrorPage": {
     "title": "Quelque chose a mal tourné!",
-    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</retry> que vous visitiez.</p>"
+    "description": " Nous avons malheureusement rencontré une erreur. Vous pouvez essayer de recharger la page que vous visitiez."
   },
   "NotFoundPage": {
     "title": "Page non trouvée",

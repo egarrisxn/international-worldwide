@@ -1,7 +1,7 @@
 {
   "Theme": "Thema",
-  "AppLayout": {
-    "home": "Start",
+  "PrivateLayout": {
+    "home": "Startseite",
     "logout": "Abmelden",
     "profile": "Profil",
     "quiz": "Quiz"
@@ -42,7 +42,7 @@
   },
   "ErrorPage": {
     "title": "Etwas ist schief gelaufen!",
-    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+    "description": "Es ist leider ein Problem aufgetreten. Du kannst versuchen diese Seite neu zu laden."
   },
   "NotFoundPage": {
     "title": "Seite nicht gefunden",

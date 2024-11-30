@@ -1,6 +1,6 @@
 {
   "Theme": "テーマ",
-  "AppLayout": {
+  "PrivateLayout": {
     "home": "ホーム",
     "logout": "ログアウト",
     "profile": "プロフィール",
@@ -42,7 +42,7 @@
   },
   "ErrorPage": {
     "title": "問題が発生しました！",
-    "description": "<p>申し訳ありませんが、エラーが発生しました。</p><p>訪れていたページを<retry>再読み込み</retry>してみてください。</p>"
+    "description": "申し訳ありませんが、エラーが発生しました。訪れていたページを再読み込みしてみてください。"
   },
   "NotFoundPage": {
     "title": "ページが見つかりません",

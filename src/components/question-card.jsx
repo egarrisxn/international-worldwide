@@ -41,7 +41,7 @@ export default function QuestionCard({
             <RadioGroup.Item
               key={index}
               value={index.toString()}
-              className={`btn-secondary ${optionClass}`} // Apply secondary button styling here
+              className={`btn-secondary ${optionClass}`}
             >
               <span>{option}</span>
             </RadioGroup.Item>
