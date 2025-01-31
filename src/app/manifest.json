@@ -1,9 +1,11 @@
 {
   "name": "international-worldwide",
   "short_name": "I|W",
+  "description": "Description coming soon!",
+  "start_url": "/",
+  "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -2,3 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 Sitemap: https://international-worldwide.vercel.app/sitemap.xml
+Host: https://international-worldwide.vercel.app
