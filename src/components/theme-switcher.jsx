@@ -1,14 +1,14 @@
-'use client';
-import {CheckIcon, SunIcon} from '@heroicons/react/24/solid';
-import * as Select from '@radix-ui/react-select';
-import clsx from 'clsx';
-import {useTranslations} from 'next-intl';
-import {useTransition} from 'react';
-import {useTheme} from 'next-themes';
+"use client";
+import { CheckIcon, SunIcon } from "@heroicons/react/24/solid";
+import * as Select from "@radix-ui/react-select";
+import clsx from "clsx";
+import { useTranslations } from "next-intl";
+import { useTransition } from "react";
+import { useTheme } from "next-themes";
 
 export default function ThemeSwitcher() {
-  const t = useTranslations('');
-  const {setTheme, themes, theme} = useTheme();
+  const t = useTranslations("");
+  const { setTheme, themes, theme } = useTheme();
   const [isPending, startTransition] = useTransition();
 
   const onChange = (value) => {
@@ -21,10 +21,10 @@ export default function ThemeSwitcher() {
     <div className="relative">
       <Select.Root onValueChange={onChange}>
         <Select.Trigger
-          aria-label={t('Theme')}
+          aria-label={t("Theme")}
           className={clsx(
-            'rounded-lg p-2 transition-colors hover:bg-dropdownHover',
-            isPending && 'pointer-events-none opacity-60'
+            "rounded-lg p-2 transition-colors hover:bg-dropdownHover",
+            isPending && "pointer-events-none opacity-60"
           )}
         >
           {/* <span className="text-slate-600">{t('Theme')}</span> */}
@@ -54,7 +54,7 @@ export default function ThemeSwitcher() {
                 </Select.Item>
               ))}
             </Select.Viewport>
-            <Select.Arrow className="fill-dropdown text-dropdown " />
+            <Select.Arrow className="fill-dropdown text-dropdown" />
           </Select.Content>
         </Select.Portal>
       </Select.Root>

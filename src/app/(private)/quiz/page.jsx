@@ -1,18 +1,18 @@
-import {useTranslations} from 'next-intl';
-import Link from 'next/link';
-import Button from '../../../components/button';
+import { useTranslations } from "next-intl";
+import Link from "next/link";
+import Button from "../../../components/button";
 
 export default function QuizPage() {
-  const t = useTranslations('QuizPage');
+  const t = useTranslations("QuizPage");
   return (
     <>
-      <h1 className="text-4xl 2xl:text-5xl pb-2 font-semibold tracking-tight">
-        {t('title')}
+      <h1 className="pb-2 text-4xl font-semibold tracking-tight 2xl:text-5xl">
+        {t("title")}
       </h1>
-      <p className="text-lg  2xl:text-xl py-2 max-w-[460px] 2xl:max-w-[580px]">
-        {t('description')}
+      <p className="max-w-[460px] py-2 text-lg 2xl:max-w-[580px] 2xl:text-xl">
+        {t("description")}
       </p>
-      <div className="flex gap-2 pt-2 flex-row flex-wrap max-w-[460px] 2xl:max-w-[580px]">
+      <div className="flex max-w-[460px] flex-row flex-wrap gap-2 pt-2 2xl:max-w-[580px]">
         <Link href="/quiz/css">
           <Button>CSS</Button>
         </Link>

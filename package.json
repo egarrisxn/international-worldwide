@@ -1,16 +1,29 @@
 {
   "name": "international-worldwide",
-  "description": "Doing it worldwide!",
   "version": "1.0.0",
+  "description": "Doing it worldwide!",
+  "homepage": "https://international-worldwide.vercel.app",
   "license": "MIT",
   "private": true,
+  "keywords": [
+    "javascript",
+    "nextjs",
+    "next-int",
+    "react",
+    "tailwindcss",
+    "vercel"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "prebuild": "pnpm run lint",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src && prettier src --check",
-    "format:fix": "prettier src --write"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "fix:all": "eslint --fix && prettier --write ."
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -27,23 +40,24 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lodash": "^4.17.21",
-    "next": "15.0.3",
+    "next": "15.1.6",
     "next-intl": "^3.0.0",
     "next-themes": "^0.4.3",
     "nextjs-toploader": "^3.7.15",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "eslint": "^9",
-    "eslint-config-molindo": "^8.0.0",
+    "@eslint/eslintrc": "^3.2.0",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.1.6",
+    "eslint-config-prettier": "^10.0.1",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
-    "postcss": "^8",
-    "prettier": "^3.3.3",
-    "tailwindcss": "^3.4.1"
-  },
-  "prettier": "eslint-config-molindo/.prettierrc.json"
+    "tailwindcss": "^3.4.17"
+  }
 }

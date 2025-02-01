@@ -1,8 +1,8 @@
-'use client';
-import {useFormStatus} from 'react-dom';
+"use client";
+import { useFormStatus } from "react-dom";
 
 export default function Button(props) {
-  const {pending} = useFormStatus();
+  const { pending } = useFormStatus();
 
   return (
     <button

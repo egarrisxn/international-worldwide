@@ -1,15 +1,15 @@
-'use client';
-import * as RadioGroup from '@radix-ui/react-radio-group';
+"use client";
+import * as RadioGroup from "@radix-ui/react-radio-group";
 
 export default function QuestionCard({
   question,
   answer,
   isSubmitted,
-  onAnswer
+  onAnswer,
 }) {
   return (
-    <div className="bg-background-secondary shadow-md rounded-md p-6">
-      <h2 className="text-xl font-semibold mb-4">{question.question}</h2>
+    <div className="rounded-md bg-background-secondary p-6 shadow-md">
+      <h2 className="mb-4 text-xl font-semibold">{question.question}</h2>
       <RadioGroup.Root
         className="flex flex-row flex-wrap gap-2"
         value={answer !== null ? answer.toString() : null}
@@ -21,19 +21,19 @@ export default function QuestionCard({
           const isCorrect = index === question.answer;
 
           let optionClass =
-            'p-2 text-sm xl:text-base border rounded-md hover:bg-gray-100 cursor-pointer';
+            "p-2 text-sm xl:text-base border rounded-md hover:bg-gray-100 cursor-pointer";
 
           if (isSubmitted) {
             if (isSelected) {
               optionClass += isCorrect
-                ? ' bg-green-500 text-white'
-                : ' bg-red-500 text-white';
+                ? " bg-green-500 text-white"
+                : " bg-red-500 text-white";
             } else if (isCorrect) {
-              optionClass += ' bg-green-100 text-green-700';
+              optionClass += " bg-green-100 text-green-700";
             }
           } else {
             if (isSelected) {
-              optionClass += ' bg-blue-100';
+              optionClass += " bg-blue-100";
             }
           }
 

@@ -1,43 +1,43 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: "2rem",
       screens: {
-        '2xl': '1440px'
-      }
+        "2xl": "1440px",
+      },
     },
     extend: {
       backgroundImage: {
-        'span-bg': 'var(--span-bg)'
+        "span-bg": "var(--span-bg)",
       },
       colors: {
-        background: 'var(--background)',
+        background: "var(--background)",
         primary: {
-          DEFAULT: 'var(--primary)'
+          DEFAULT: "var(--primary)",
         },
-        'button-secondary': 'var(--button-secondary)',
-        'button-text': 'var(--button-text)',
-        'text-secondary': 'var(--text-secondary)',
-        'background-secondary': 'var(--background-secondary)',
-        secondary: 'var(--secondary)',
-        button: 'var(--button)',
-        selected: 'var(--selected)',
-        dropdown: 'var(--dropdown)',
-        dropdownHover: 'var(--dropdown-hover)',
-        buttonSecondary: 'var(--button-secondary)'
+        "button-secondary": "var(--button-secondary)",
+        "button-text": "var(--button-text)",
+        "text-secondary": "var(--text-secondary)",
+        "background-secondary": "var(--background-secondary)",
+        secondary: "var(--secondary)",
+        button: "var(--button)",
+        selected: "var(--selected)",
+        dropdown: "var(--dropdown)",
+        dropdownHover: "var(--dropdown-hover)",
+        buttonSecondary: "var(--button-secondary)",
       },
 
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', 'var(--rubik)']
+        sans: ["var(--font-space-grotesk)", "var(--rubik)"],
       },
       animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out'
-      }
-    }
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
+    },
   },
-  plugins: [require('tailwindcss-animate')]
+  plugins: [require("tailwindcss-animate")],
 };

@@ -1,11 +1,11 @@
-'use client';
-import clsx from 'clsx';
-import * as Select from '@radix-ui/react-select';
-import {useTransition} from 'react';
-import {setUserLocale} from '../services/locale';
-import {CheckIcon, LanguageIcon} from '@heroicons/react/24/solid';
+"use client";
+import clsx from "clsx";
+import * as Select from "@radix-ui/react-select";
+import { useTransition } from "react";
+import { setUserLocale } from "../services/locale";
+import { CheckIcon, LanguageIcon } from "@heroicons/react/24/solid";
 
-export default function LocaleSwitcherSelect({defaultValue, items, label}) {
+export default function LocaleSwitcherSelect({ defaultValue, items, label }) {
   const [isPending, startTransition] = useTransition();
 
   function onChange(value) {
@@ -21,12 +21,12 @@ export default function LocaleSwitcherSelect({defaultValue, items, label}) {
         <Select.Trigger
           aria-label={label}
           className={clsx(
-            'rounded-lg p-2 transition-colors hover:bg-dropdownHover',
-            isPending && 'pointer-events-none opacity-60'
+            "rounded-lg p-2 transition-colors hover:bg-dropdownHover",
+            isPending && "pointer-events-none opacity-60"
           )}
         >
           <Select.Icon>
-            <LanguageIcon className="size-6 text-button  transition-colors" />
+            <LanguageIcon className="size-6 text-button transition-colors" />
           </Select.Icon>
         </Select.Trigger>
         <Select.Portal>
@@ -39,7 +39,7 @@ export default function LocaleSwitcherSelect({defaultValue, items, label}) {
               {items.map((item) => (
                 <Select.Item
                   key={item.value}
-                  className="flex cursor-default items-center px-3 py-2 text-base justify-between data-[highlighted]:bg-dropdownHover"
+                  className="flex cursor-default items-center justify-between px-3 py-2 text-base data-[highlighted]:bg-dropdownHover"
                   value={item.value}
                 >
                   <div className="mr-2 w-[1rem]">

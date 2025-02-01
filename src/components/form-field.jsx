@@ -1,8 +1,8 @@
-'use client';
-import {useFormStatus} from 'react-dom';
+"use client";
+import { useFormStatus } from "react-dom";
 
-export default function FormField({label, ...rest}) {
-  const {pending} = useFormStatus();
+export default function FormField({ label, ...rest }) {
+  const { pending } = useFormStatus();
 
   return (
     <label>

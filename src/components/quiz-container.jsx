@@ -1,9 +1,9 @@
-'use client';
-import {useState, useEffect} from 'react';
-import Quiz from './quiz';
-import Button from './button';
+"use client";
+import { useState, useEffect } from "react";
+import Quiz from "./quiz";
+import Button from "./button";
 
-export default function QuizContainer({questions}) {
+export default function QuizContainer({ questions }) {
   const [answers, setAnswers] = useState(
     new Array(questions.length).fill(null)
   );
@@ -47,7 +47,7 @@ export default function QuizContainer({questions}) {
 
   return (
     <>
-      <div className="pb-4 text-lg 2xl:text-xl pt-2">
+      <div className="pb-4 pt-2 text-lg 2xl:text-xl">
         <p>Time Remaining: {timer}s</p>
       </div>
       <Quiz
@@ -56,7 +56,7 @@ export default function QuizContainer({questions}) {
         onAnswer={handleAnswer}
         isSubmitted={isSubmitted}
       />
-      <div className="pt-4 flex flex-row gap-2 items-center">
+      <div className="flex flex-row items-center gap-2 pt-4">
         <Button
           onClick={handleSubmit}
           variant="primary"
