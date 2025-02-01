@@ -1,5 +1,7 @@
 # INTERNATIONAL WORLDWIDE
 
+![intl-wrldwde](https://github.com/user-attachments/assets/5f5a7469-7f12-48ad-8449-6abddda439e6)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/international-worldwide) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/international-worldwide)
 
 ## 🚀 Overview
