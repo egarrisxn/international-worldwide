@@ -1,7 +1,7 @@
 {
   "name": "international-worldwide",
   "short_name": "I|W",
-  "description": "Description coming soon!",
+  "description": "Doing it worldwide with Next-Intl.",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#ffffff",
