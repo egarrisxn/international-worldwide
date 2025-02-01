@@ -6,15 +6,15 @@
 
 ## 🚀 Overview
 
-**INTERNATIONAL WORLDWIDE** ...
+**INTERNATIONAL WORLDWIDE** is doing it worldwide with Next-Intl! Explore a variety of themes, switch between multiple languages, and test your knowledge across different coding subjects—all in one place!
 
 ## 🛠️ Technologies Used
 
 - **Next.js** – Server-side rendering and optimized performance
 - **React** – Dynamic and reusable UI components
 - **JavaScript** – Core functionality
-- **Tailwiind CSS** - ...
-- **Next-Intl** - ...
+- **Tailwiind CSS** - Utility-first styling for fast and responsive UI design
+- **Next-Intl** - Internationalization and localization made easy for seamless multilingual support
 - **Vercel** – Seamless deployment and hosting
 - **More!** – Additional tools and libraries may be included
 
