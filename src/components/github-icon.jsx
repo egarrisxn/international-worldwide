@@ -4,7 +4,7 @@ export default function GitHubIcon() {
       href="https://github.com/egarrisxn/international-worldwide"
       target="_blank"
     >
-      <div className="rounded-lg p-2 text-button transition-colors hover:bg-dropdownHover">
+      <div className="transition-colors hover:text-button">
         <div className="size-6 transition-colors">
           <svg
             xmlns="http://www.w3.org/2000/svg"

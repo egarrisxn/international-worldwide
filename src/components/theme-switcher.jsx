@@ -1,10 +1,10 @@
 "use client";
-import { CheckIcon, SunIcon } from "@heroicons/react/24/solid";
 import * as Select from "@radix-ui/react-select";
 import clsx from "clsx";
 import { useTranslations } from "next-intl";
 import { useTransition } from "react";
 import { useTheme } from "next-themes";
+import { CheckIcon, SunIcon } from "@heroicons/react/24/solid";
 
 export default function ThemeSwitcher() {
   const t = useTranslations("");
@@ -27,7 +27,6 @@ export default function ThemeSwitcher() {
             isPending && "pointer-events-none opacity-60"
           )}
         >
-          {/* <span className="text-slate-600">{t('Theme')}</span> */}
           <Select.Icon>
             <SunIcon className="size-6 text-button transition-colors" />
           </Select.Icon>
@@ -35,7 +34,7 @@ export default function ThemeSwitcher() {
         <Select.Portal>
           <Select.Content
             align="end"
-            className="min-w-[8rem] overflow-hidden rounded-sm bg-dropdown py-1 shadow-md"
+            className="min-w-[8rem] overflow-hidden rounded-lg bg-dropdown py-0.5 shadow-md"
             position="popper"
           >
             <Select.Viewport>

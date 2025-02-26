@@ -13,16 +13,10 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.config({
     extends: ["next/core-web-vitals", "prettier"],
-    rules: {
-      semi: ["error"],
-      quotes: ["error", "double"],
-      // "no-unused-vars": "off",
-      // "no-use-before-define": "off",
-      // "no-undef": "off",
-    },
+    rules: {},
   }),
   {
-    ignores: ["**/node_modules/", ".git/", ".next/"],
+    ignores: ["**/node_modules/", ".git/", ".vscode/", ".next/", "public/"],
   },
 ];
 

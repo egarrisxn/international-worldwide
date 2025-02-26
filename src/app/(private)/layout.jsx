@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import ThemeSwitcher from "../../components/theme-switcher";
 import LocaleSwitcher from "../../components/locale-switcher";
 import NavLink from "../../components/nav-link";
@@ -31,9 +32,13 @@ export default function PrivateLayout({ children }) {
           <div className="flex items-center">
             <GithubIcon />
           </div>
-          <div className="flex items-center">
-            <Link className="font-semibold transition-colors" href="/">
-              {t("logout")} →
+          <div>
+            <Link
+              className="group flex flex-row items-center gap-1 font-semibold transition-all hover:text-button"
+              href="/"
+            >
+              <p>{t("logout")}</p>
+              <ArrowLongRightIcon className="size-5 -translate-x-0.5 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:scale-x-105" />
             </Link>
           </div>
         </div>

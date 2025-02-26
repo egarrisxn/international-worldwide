@@ -1,6 +1,6 @@
 "use client";
-import clsx from "clsx";
 import * as Select from "@radix-ui/react-select";
+import clsx from "clsx";
 import { useTransition } from "react";
 import { setUserLocale } from "../services/locale";
 import { CheckIcon, LanguageIcon } from "@heroicons/react/24/solid";
@@ -32,7 +32,7 @@ export default function LocaleSwitcherSelect({ defaultValue, items, label }) {
         <Select.Portal>
           <Select.Content
             align="end"
-            className="min-w-[8rem] overflow-hidden rounded-sm bg-dropdown py-1 shadow-md"
+            className="min-w-[8rem] overflow-hidden rounded-lg bg-dropdown py-0.5 shadow-md"
             position="popper"
           >
             <Select.Viewport>

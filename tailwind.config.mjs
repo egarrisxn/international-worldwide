@@ -1,5 +1,7 @@
+import tailwindcssAnimate from "tailwindcss-animate";
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     container: {
@@ -31,7 +33,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ["var(--font-space-grotesk)", "var(--rubik)"],
+        sans: ["var(--font-geist)", "var(--rubik)"],
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -39,5 +41,6 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 };
+export default config;
