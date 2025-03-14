@@ -1,4 +1,4 @@
-# INTERNATIONAL WORLDWIDE
+# International Worldwide
 
 ![intl-wrldwde](https://github.com/user-attachments/assets/5f5a7469-7f12-48ad-8449-6abddda439e6)
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-**INTERNATIONAL WORLDWIDE** is doing it worldwide with Next-Intl! Explore a variety of themes, switch between multiple languages, and test your knowledge across different coding subjects—all in one place!
+**International Worldwide** is doing it worldwide with Next-Intl! Explore a variety of themes, switch between multiple languages, and test your knowledge across different coding subjects—all in one place!
 
 ## 🛠️ Technologies Used
 
