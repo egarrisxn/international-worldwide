@@ -1,5 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+import Button from "../../../components/ui/button";
 
 export default function Home() {
   const t = useTranslations("home");
@@ -21,6 +24,13 @@ export default function Home() {
       <p className="max-w-[460px] pt-2 text-lg 2xl:max-w-[580px] 2xl:text-xl">
         {t("description")}
       </p>
+      <div className="flex pt-4">
+        <Link href="/quiz">
+          <Button variant="primary" size="primary">
+            {t("button")}
+          </Button>
+        </Link>
+      </div>
     </>
   );
 }

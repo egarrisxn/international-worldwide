@@ -1,8 +1,8 @@
-import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
-import clsx from "clsx";
 import { useFormStatus } from "react-dom";
+import clsx from "clsx";
+import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
 
-export default function LoginFormErrors({ errors }) {
+export default function AuthErrors({ errors }) {
   const { pending } = useFormStatus();
 
   const messages = [];

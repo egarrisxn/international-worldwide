@@ -8,8 +8,10 @@ export default function QuestionCard({
   onAnswer,
 }) {
   return (
-    <div className="rounded-md bg-background-secondary p-6 shadow-md">
-      <h2 className="mb-4 text-xl font-semibold">{question.question}</h2>
+    <div className="mx-auto w-full rounded-base border-2 border-border bg-white p-6 text-black shadow-shadow dark:bg-black dark:text-white">
+      <h2 className="leadning-none mb-4 text-xl font-extrabold tracking-tight">
+        {question.question}
+      </h2>
       <RadioGroup.Root
         className="flex flex-row flex-wrap gap-2"
         value={answer !== null ? answer.toString() : null}
@@ -21,7 +23,7 @@ export default function QuestionCard({
           const isCorrect = index === question.answer;
 
           let optionClass =
-            "p-2 text-sm xl:text-base border rounded-md hover:bg-gray-100 cursor-pointer";
+            "inline-flex items-center justify-center whitespace-nowrap rounded-base text-sm font-base transition-all border-2 border-border shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none py-2 px-3 text-sm cursor-pointer";
 
           if (isSubmitted) {
             if (isSelected) {

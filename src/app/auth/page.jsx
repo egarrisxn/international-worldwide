@@ -4,26 +4,26 @@ import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { z } from "zod";
 import { isEqual } from "lodash";
-import { UserGroupIcon } from "@heroicons/react/24/outline";
+import { LanguageIcon } from "@heroicons/react/24/solid";
 import ThemeSwitcher from "../../components/theme-switcher";
 import LocaleSwitcher from "../../components/locale-switcher";
-import FormButton from "../../components/form-button";
-import FormField from "../../components/form-field";
-import { loginUser } from "../../services/session";
-import LoginForm from "./login-form";
+import FormButton from "../../components/ui/form-button";
+import FormField from "../../components/ui/form-input";
+import { authUser } from "../../services/session";
+import AuthForm from "./auth-form";
 
-const loginFormSchema = z.object({
+const authFormSchema = z.object({
   email: z.string().email(),
   password: z.string().min(1),
 });
 
-async function loginAction(prev, data) {
+async function authAction(prev, data) {
   "use server";
-  const t = await getTranslations("login");
+  const t = await getTranslations("auth");
   const values = Object.fromEntries(data);
 
-  const result = await loginFormSchema
-    .refine(async (credentials) => loginUser(credentials), {
+  const result = await authFormSchema
+    .refine(async (credentials) => authUser(credentials), {
       message: t("invalidCredentials"),
     })
     .safeParseAsync(values, {
@@ -50,8 +50,8 @@ async function loginAction(prev, data) {
   }
 }
 
-export default function LoginPage() {
-  const t = useTranslations("login");
+export default function AuthPage() {
+  const t = useTranslations("auth");
   const locale = useLocale();
 
   return (
@@ -67,6 +67,12 @@ export default function LoginPage() {
               className="size-10"
               priority
             />
+            <span className="ml-2 text-3xl font-black tracking-tighter sm:hidden">
+              INTL. WRLD
+            </span>
+            <span className="ml-2 hidden text-3xl font-black tracking-tighter sm:block">
+              INTL. WORLDWIDE
+            </span>
           </div>
           <div className="flex flex-row items-center gap-3">
             <ThemeSwitcher />
@@ -74,12 +80,12 @@ export default function LoginPage() {
           </div>
         </div>
       </header>
-      <div className="mx-auto w-full max-w-lg rounded-xl border-[var(--button)] lg:mt-12 lg:border-2 lg:shadow-xl">
-        <LoginForm
+      <div className="mx-auto w-full max-w-lg rounded-base border-2 border-border bg-white text-black shadow-shadow lg:mt-12 dark:bg-black dark:text-white">
+        <AuthForm
           key={locale}
-          action={loginAction}
+          action={authAction}
           fields={
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 font-bold">
               <FormField
                 label={t("email")}
                 name="email"
@@ -98,8 +104,8 @@ export default function LoginPage() {
           }
           header={
             <div className="text-center">
-              <UserGroupIcon className="mx-auto size-16" />
-              <h1 className="mt-4 text-4xl font-semibold tracking-tight">
+              <LanguageIcon className="mx-auto size-16" />
+              <h1 className="mt-4 text-4xl font-extrabold leading-none tracking-tight">
                 {t("title")}
               </h1>
               <p className="mt-2 text-slate-500">{t("description")}</p>
@@ -107,7 +113,10 @@ export default function LoginPage() {
           }
           submit={
             <div>
-              <FormButton type="submit">{t("login")}</FormButton>
+              <div className="flex flex-row justify-center gap-1.5 sm:gap-2">
+                <FormButton type="submit">{t("login")}</FormButton>
+                <FormButton type="submit">{t("register")}</FormButton>
+              </div>
               <p className="mt-4 text-center text-sm text-slate-500">
                 {t("credentials")}
               </p>

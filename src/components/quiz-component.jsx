@@ -1,5 +1,5 @@
 "use client";
-import QuestionCard from "./question-card";
+import QuestionCard from "./ui/quiz-card";
 
 export default function QuizComponent({
   questions,

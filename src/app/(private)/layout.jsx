@@ -3,19 +3,18 @@ import { useTranslations } from "next-intl";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import ThemeSwitcher from "../../components/theme-switcher";
 import LocaleSwitcher from "../../components/locale-switcher";
-import NavLink from "../../components/nav-link";
-import GithubIcon from "../../components/github-icon";
+import NavLink from "../../components/ui/nav-link";
+import GithubIcon from "../../components/icons/github-icon";
 
 export default function PrivateLayout({ children }) {
   const t = useTranslations("private");
 
   return (
     <div className="flex grow flex-col">
-      <header className="w-full border-b shadow-lg">
+      <header className="w-full border-b-2 shadow-lg">
         <div className="mx-auto flex max-w-screen-2xl flex-row items-center justify-between px-4 py-5">
           <nav className="flex flex-row items-center gap-6">
             <NavLink href="/home">{t("home")}</NavLink>
-            <NavLink href="/profile">{t("profile")}</NavLink>
             <NavLink href="/quiz">{t("quiz")}</NavLink>
           </nav>
           <div className="flex flex-row items-center gap-3">
@@ -35,7 +34,7 @@ export default function PrivateLayout({ children }) {
           <div>
             <Link
               className="group flex flex-row items-center gap-1 font-semibold transition-all hover:text-button"
-              href="/"
+              href="/auth"
             >
               <p>{t("logout")}</p>
               <ArrowLongRightIcon className="size-5 -translate-x-0.5 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:scale-x-105" />

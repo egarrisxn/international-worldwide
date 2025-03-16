@@ -1,9 +1,9 @@
 "use client";
+import { useTransition } from "react";
 import * as Select from "@radix-ui/react-select";
 import clsx from "clsx";
-import { useTransition } from "react";
-import { setUserLocale } from "../services/locale";
 import { CheckIcon, LanguageIcon } from "@heroicons/react/24/solid";
+import { setUserLocale } from "../services/locale";
 
 export default function LocaleSwitcherSelect({ defaultValue, items, label }) {
   const [isPending, startTransition] = useTransition();
@@ -21,7 +21,7 @@ export default function LocaleSwitcherSelect({ defaultValue, items, label }) {
         <Select.Trigger
           aria-label={label}
           className={clsx(
-            "rounded-lg p-2 transition-colors hover:bg-dropdownHover",
+            "font-base rounded-base border-2 border-border p-2 text-sm shadow-shadow transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none",
             isPending && "pointer-events-none opacity-60"
           )}
         >

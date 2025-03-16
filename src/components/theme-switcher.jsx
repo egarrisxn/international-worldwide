@@ -1,9 +1,9 @@
 "use client";
-import * as Select from "@radix-ui/react-select";
-import clsx from "clsx";
-import { useTranslations } from "next-intl";
 import { useTransition } from "react";
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
+import * as Select from "@radix-ui/react-select";
+import clsx from "clsx";
 import { CheckIcon, SunIcon } from "@heroicons/react/24/solid";
 
 export default function ThemeSwitcher() {
@@ -23,7 +23,7 @@ export default function ThemeSwitcher() {
         <Select.Trigger
           aria-label={t("theme")}
           className={clsx(
-            "rounded-lg p-2 transition-colors hover:bg-dropdownHover",
+            "font-base rounded-base border-2 border-border p-2 text-sm shadow-shadow transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none",
             isPending && "pointer-events-none opacity-60"
           )}
         >

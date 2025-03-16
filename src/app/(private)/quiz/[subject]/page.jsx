@@ -11,7 +11,7 @@ export default async function Subject({ params }) {
 
   return (
     <>
-      <h1 className="pb-2 text-4xl font-semibold capitalize tracking-tight 2xl:text-5xl">
+      <h1 className="pb-2 text-4xl font-semibold uppercase leading-none tracking-tight">
         {subject}
       </h1>
       {questions.length > 0 ? (

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { useTranslations } from "next-intl";
 import Link from "next/link";
-import Button from "../../../components/button";
+import { useTranslations } from "next-intl";
+import Button from "../../../components/ui/button";
 
 export default function Quiz() {
   const t = useTranslations("quiz");

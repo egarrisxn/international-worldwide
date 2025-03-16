@@ -11,7 +11,7 @@ export default function NavLink({ href, ...rest }) {
     <Link
       aria-current={isActive ? "page" : undefined}
       className={clsx(
-        "border-b-2 border-transparent py-2 font-semibold transition-colors",
+        "border-b-[3px] border-transparent py-1 font-bold transition-colors",
         isActive
           ? "border-b-primary text-primary"
           : "text-button hover:border-b-button hover:text-button"

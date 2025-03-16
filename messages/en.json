@@ -17,7 +17,7 @@
     "ru": "Russian",
     "label": "Language"
   },
-  "login": {
+  "auth": {
     "credentials": "Credentials: jane@doe.com / next-intl",
     "description": "Please enter your details.",
     "email": "Email",
@@ -25,16 +25,14 @@
     "invalidEmail": "Please enter a valid email address.",
     "invalidPassword": "Please enter a password.",
     "login": "Sign in",
+    "register": "Sign up",
     "password": "Password",
     "title": "Welcome back"
   },
   "home": {
     "title": "Home",
-    "description": "Welcome Home! This is the place where you can find the latest updates, featured articles, and helpful resources to get started with our platform. Explore our content and enjoy your stay!"
-  },
-  "profile": {
-    "title": "Profile",
-    "description": "Here is your profile page! View and update your personal information, track your activity, and manage your preferences. Customize your experience to suit your needs and stay connected with your community."
+    "description": "Welcome Home! This is the place where you can find the latest updates, featured articles, and helpful resources to get started with our platform. Explore our content and enjoy your stay!",
+    "button": "Quiz"
   },
   "quiz": {
     "title": "Quiz",

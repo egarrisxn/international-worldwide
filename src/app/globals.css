@@ -22,11 +22,21 @@
     --selected: #9ec6ff;
     --logo-shadow: #053949;
     --logo-body: #00d8fe;
+    --border: #0ba6d1;
     --span-bg: linear-gradient(to right, #4e4e9e, #097fa5, #3e87ed);
+
+    --overlay: rgba(0, 0, 0, 0.8);
+    --shadow: var(--box-shadow-x) var(--box-shadow-y) 0px 0px var(--border);
+
+    --border-radius: 5px;
+    --box-shadow-x: 2px;
+    --box-shadow-y: 3px;
+    --reverse-box-shadow-x: -2px;
+    --reverse-box-shadow-y: -3px;
   }
   .dark {
     --primary: #d6deff;
-    --secondary: #0ba6d1;
+    --secondary: #097fa5;
     --background: #121212;
     --background-secondary: #1b1b1b;
     --button: #097fa5;
@@ -38,6 +48,7 @@
     --selected: #324e70;
     --logo-shadow: #0a2e36;
     --logo-body: #097fa5;
+    --border: #0ba6d1;
     --span-bg: linear-gradient(to right, #8c00ff, #0fb4e1, #a1d930, #ae0000);
   }
   .sunset {
@@ -54,6 +65,7 @@
     --selected: #ff9966;
     --logo-shadow: #333333;
     --logo-body: #ff6b6b;
+    --border: #ff9966;
     --span-bg: linear-gradient(to right, #ff6b6b, #ff9966, #ffcc66);
   }
   .instagram {
@@ -70,6 +82,7 @@
     --selected: #fcb045;
     --logo-shadow: #000000;
     --logo-body: #cc3f7e;
+    --border: #fcb045;
     --span-bg: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   }
   .facebook {
@@ -86,6 +99,7 @@
     --selected: #aeb3be;
     --logo-shadow: #000000;
     --logo-body: #3b5998;
+    --border: #4267b2;
     --span-bg: linear-gradient(to right, #3b5998, #4267b2, #5578c2);
   }
   .discord {
@@ -102,6 +116,7 @@
     --selected: #1f2b57;
     --logo-shadow: #000000;
     --logo-body: #7289da;
+    --border: #7289da;
     --span-bg: linear-gradient(to right, #7289da, #7289da, #7289da);
   }
   .netflix {
@@ -118,6 +133,7 @@
     --selected: #400202;
     --logo-shadow: #000000;
     --logo-body: #ff0000;
+    --border: #ffffff;
     --span-bg: linear-gradient(to right, #ff0000, #ff0000, #ff0000);
   }
   .reddit {
@@ -134,6 +150,7 @@
     --selected: #ff6347;
     --logo-shadow: #000000;
     --logo-body: #ff4500;
+    --border: #ff6347;
     --span-bg: linear-gradient(to right, #ff4500, #ff6347, #ff4500);
   }
   .twilight {
@@ -150,6 +167,7 @@
     --selected: #b0394b;
     --logo-shadow: #6d6875;
     --logo-body: #8d82c4;
+    --border: #d84c21;
     --span-bg: linear-gradient(to right, #8d82c4, #f7b7a3, #7d9dbf);
   }
 }
@@ -160,6 +178,9 @@
   }
   *:lang(fa) {
     font-family: var(--rubik) !important;
+  }
+  * {
+    @apply border-border;
   }
   div::selection,
   h1::selection,

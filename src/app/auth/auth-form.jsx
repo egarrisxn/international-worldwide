@@ -1,8 +1,8 @@
 "use client";
 import { useActionState } from "react";
-import LoginFormErrors from "./login-form-errors";
+import AuthErrors from "./auth-errors";
 
-export default function LoginForm({ action, fields, header, submit }) {
+export default function AuthForm({ action, fields, header, submit }) {
   const [state, formAction] = useActionState(action, null);
 
   return (
@@ -15,7 +15,7 @@ export default function LoginForm({ action, fields, header, submit }) {
         {fields}
         {state?.success === false && (
           <div className="mt-4">
-            <LoginFormErrors errors={state.errors} />
+            <AuthErrors errors={state.errors} />
           </div>
         )}
       </div>

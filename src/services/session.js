@@ -1,4 +1,4 @@
-export async function loginUser(credentials) {
+export async function authUser(credentials) {
   // In a real app, the credentials would be checked against a
   // database and potentially a session token set in a cookie
   return new Promise((resolve) => {
