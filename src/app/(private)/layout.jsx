@@ -7,7 +7,7 @@ import NavLink from "../../components/nav-link";
 import GithubIcon from "../../components/github-icon";
 
 export default function PrivateLayout({ children }) {
-  const t = useTranslations("PrivateLayout");
+  const t = useTranslations("private");
 
   return (
     <div className="flex grow flex-col">

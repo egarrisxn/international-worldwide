@@ -1,12 +1,12 @@
 {
-  "Theme": "Tema",
-  "PrivateLayout": {
+  "theme": "Tema",
+  "private": {
     "home": "Inicio",
     "logout": "Cerrar sesión",
     "profile": "Perfil",
     "quiz": "Cuestionario"
   },
-  "LocaleSwitcher": {
+  "localeswitcher": {
     "de": "Alemán",
     "en": "Inglés",
     "ar": "Árabe",
@@ -17,7 +17,7 @@
     "ru": "Ruso",
     "label": "Idioma"
   },
-  "LoginPage": {
+  "login": {
     "credentials": "Credenciales: jane@doe.com / next-intl",
     "description": "Por favor, ingrese sus datos.",
     "email": "Correo electrónico",
@@ -28,24 +28,802 @@
     "password": "Contraseña",
     "title": "Bienvenido de nuevo"
   },
-  "HomePage": {
+  "home": {
     "title": "Inicio",
     "description": "¡Bienvenido a casa! Este es el lugar donde puedes encontrar las últimas actualizaciones, artículos destacados y recursos útiles para comenzar con nuestra plataforma. ¡Explora nuestro contenido y disfruta tu estancia!"
   },
-  "ProfilePage": {
+  "profile": {
     "title": "Perfil",
     "description": "¡Aquí está tu página de perfil! Visualiza y actualiza tu información personal, realiza un seguimiento de tu actividad y gestiona tus preferencias. Personaliza tu experiencia para adaptarla a tus necesidades y mantente conectado con tu comunidad."
   },
-  "QuizPage": {
+  "quiz": {
     "title": "Concurso",
     "description": "¡Aquí está tu página de cuestionarios! ¡Selecciona una de las categorías a continuación, pon a prueba tu conocimiento sobre el tema y compara tu puntuación con la de otros!"
   },
-  "ErrorPage": {
+  "error": {
     "title": "¡Algo salió mal!",
     "description": "Desafortunadamente, hemos encontrado un error. Puedes intentar recargar la página que estabas visitando."
   },
-  "NotFoundPage": {
+  "notfound": {
     "title": "Página no encontrada",
     "description": "Por favor, revisa la barra de direcciones del navegador o usa la navegación para ir a una página conocida."
+  },
+  "subject": {
+    "css": {
+      "questions": [
+        {
+          "question": "¿Qué significa CSS?",
+          "options": [
+            "Hojas de Estilo en Cascada",
+            "Hojas de Estilo de Computadora",
+            "Sistema de Estilo Creativo",
+            "Hojas de Estilo Coloridas"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propiedad se utiliza para cambiar el color del texto en CSS?",
+          "options": ["color", "text-color", "font-color", "background-color"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es la sintaxis correcta para aplicar una clase en CSS?",
+          "options": [
+            ".classname { ... }",
+            "#classname { ... }",
+            "*classname { ... }",
+            "classname { ... }"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propiedad CSS controla el tamaño del texto?",
+          "options": ["font-size", "text-size", "size", "font-style"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo haces que un color de fondo sea transparente en CSS?",
+          "options": [
+            "background-color: none",
+            "background-color: transparent",
+            "background: invisible",
+            "background-opacity: 0"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es la posición predeterminada de un elemento en CSS?",
+          "options": ["static", "relative", "absolute", "fixed"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propiedad se utiliza para establecer el espacio entre las líneas de texto?",
+          "options": [
+            "line-height",
+            "letter-spacing",
+            "text-spacing",
+            "height"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace la propiedad z-index en CSS?",
+          "options": [
+            "Controla el tamaño de un elemento",
+            "Controla el orden de apilamiento de los elementos",
+            "Controla la visibilidad de un elemento",
+            "Controla la alineación del texto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué pseudo-clase selecciona el primer hijo de un elemento?",
+          "options": [":first", ":first-child", ":child(1)", ":first-element"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es el propósito de la regla @media en CSS?",
+          "options": [
+            "Definir estilos para diferentes tamaños de pantalla o dispositivos",
+            "Importar archivos CSS externos",
+            "Especificar propiedades de fuente",
+            "Agregar animaciones a los elementos"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "html": {
+      "questions": [
+        {
+          "question": "¿Qué significa HTML?",
+          "options": [
+            "Lenguaje de marcado de texto hipertexto",
+            "Lenguaje de máquina de texto hipertexto",
+            "Lenguaje de marcado de hipervínculos y texto",
+            "Lenguaje de marcado de herramientas de casa"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué etiqueta se usa para crear un hipervínculo en HTML?",
+          "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es el propósito de la etiqueta <head> en un documento HTML?",
+          "options": [
+            "Definir el contenido del cuerpo",
+            "Contener metadatos y enlaces a recursos externos",
+            "Mostrar el contenido principal",
+            "Crear encabezados"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué elemento HTML se usa para insertar una imagen?",
+          "options": ["<img>", "<image>", "<picture>", "<src>"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué atributo se usa para proporcionar texto alternativo para una imagen?",
+          "options": ["title", "alt", "src", "description"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué etiqueta se usa para definir una fila de tabla en HTML?",
+          "options": ["<tr>", "<td>", "<th>", "<row>"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es la etiqueta HTML correcta para el encabezado más grande?",
+          "options": ["<h1>", "<heading>", "<h6>", "<head>"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué atributo HTML se usa para especificar un identificador único para un elemento?",
+          "options": ["class", "id", "name", "key"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo puedes crear una lista ordenada en HTML?",
+          "options": ["<ul>", "<ol>", "<li>", "<list>"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hace el elemento <form> en HTML?",
+          "options": [
+            "Crea una tabla",
+            "Define un contenedor para contenido multimedia",
+            "Recoge la entrada del usuario",
+            "Muestra contenido de texto"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "javascript": {
+      "questions": [
+        {
+          "question": "¿Cuál de los siguientes es un tipo de dato en JavaScript?",
+          "options": ["String", "HTML", "CSS", "JSON"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es la palabra clave utilizada para declarar una variable en JavaScript?",
+          "options": ["var", "let", "const", "Todas las anteriores"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué método se usa para analizar una cadena JSON en un objeto JavaScript?",
+          "options": [
+            "JSON.stringify",
+            "JSON.parse",
+            "parseJSON",
+            "String.toJSON"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es el resultado de `typeof null` en JavaScript?",
+          "options": ["null", "object", "undefined", "string"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué verifica el operador `===` en JavaScript?",
+          "options": [
+            "Igualdad de valor y tipo",
+            "Igualdad de solo valor",
+            "Desigualdad de valor",
+            "Ninguna de las anteriores"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué función se utiliza para programar la ejecución de código después de un tiempo establecido?",
+          "options": ["setTimeout", "setInterval", "setTime", "schedule"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es el alcance de una variable `let` declarada dentro de un bloque?",
+          "options": [
+            "Global",
+            "Función",
+            "Bloque",
+            "Ninguna de las anteriores"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hace el método `Array.prototype.map`?",
+          "options": [
+            "Ordena el arreglo",
+            "Filtra el arreglo",
+            "Crea un nuevo arreglo con elementos transformados",
+            "Elimina elementos duplicados"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cuál de los siguientes no es un marco/librería de JavaScript?",
+          "options": ["React", "Angular", "Django", "Vue"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cuál es el propósito del objeto `Promise` en JavaScript?",
+          "options": [
+            "Manejo de operaciones sincrónicas",
+            "Manejo de operaciones asincrónicas",
+            "Realizar operaciones aritméticas",
+            "Gestionar escuchas de eventos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "nextjs": {
+      "questions": [
+        {
+          "question": "¿Qué empresa creó Next.js?",
+          "options": ["Google", "Vercel", "Facebook", "Amazon"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué método obtiene datos en cada solicitud en Next.js?",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "getInitialProps",
+            "useEffect"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es el comportamiento de renderizado por defecto en Next.js?",
+          "options": [
+            "Renderizado del lado del cliente",
+            "Generación de sitio estático",
+            "Renderizado del lado del servidor",
+            "Renderizado dinámico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué componente envuelve tu aplicación para configuraciones globales en Next.js App Router?",
+          "options": ["_app.js", "layout.js", "_document.js", "page.js"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hook es exclusivo para enrutamiento en Next.js?",
+          "options": ["useNavigate", "useRouter", "useHistory", "useRoutes"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo habilitas rutas dinámicas en Next.js?",
+          "options": [
+            "Crear un archivo `routes.js`",
+            "Usar la API `DynamicRoutes`",
+            "Añadir archivos `[param]` en el directorio `pages` o `app`",
+            "Añadir rutas a `next.config.js`"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué significa ISR en Next.js?",
+          "options": [
+            "Renderizado inmediato del servidor",
+            "Regeneración estática incremental",
+            "Rutas de estado interno",
+            "Renderizado en memoria del servidor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo especificas una página de reserva para una ruta dinámica?",
+          "options": [
+            "Usando `getStaticProps`",
+            "Usando `fallback: true` en `getStaticPaths`",
+            "Usando `useRouter`",
+            "Añadiendo un archivo `[fallback].js`"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué comando inicia el servidor de desarrollo de Next.js?",
+          "options": [
+            "npm run dev",
+            "npm run start",
+            "npx next-dev",
+            "npm build"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué característica ofrece Next.js para sitios web multilingües?",
+          "options": [
+            "SSR",
+            "I18n",
+            "Importaciones dinámicas",
+            "Exportaciones estáticas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "react": {
+      "questions": [
+        {
+          "question": "¿Para qué se usa principalmente React?",
+          "options": [
+            "Desarrollo de backend",
+            "Construcción de interfaces de usuario",
+            "Gestión de bases de datos",
+            "Renderizado en el servidor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Quién desarrolló React?",
+          "options": ["Google", "Facebook (Meta)", "Microsoft", "Apple"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué es JSX?",
+          "options": [
+            "Una biblioteca de JavaScript",
+            "Una extensión de sintaxis para JavaScript",
+            "Una herramienta de comprobación de tipos",
+            "Un framework de CSS"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hook de React se usa para gestionar el estado en un componente funcional?",
+          "options": ["useEffect", "useState", "useReducer", "useRef"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hace el hook `useEffect`?",
+          "options": [
+            "Gestiona los eventos del ciclo de vida del componente",
+            "Gestiona las actualizaciones del estado",
+            "Interactúa directamente con el DOM",
+            "Maneja el enrutamiento en React"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es el DOM virtual en React?",
+          "options": [
+            "Una réplica del DOM real almacenada en memoria",
+            "Una herramienta para consultas a bases de datos",
+            "Un método para el renderizado en el servidor",
+            "Una API del navegador para manipulación del DOM"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo pasas datos de un componente padre a un componente hijo?",
+          "options": [
+            "Usando props",
+            "Usando state",
+            "Usando context",
+            "Usando Redux"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace `useRef` en React?",
+          "options": [
+            "Gestiona las actualizaciones del estado",
+            "Crea una referencia a un elemento del DOM o valor",
+            "Maneja operaciones asincrónicas",
+            "Configura el enrutamiento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es el propósito de las claves de React?",
+          "options": [
+            "Identificar elementos únicos en una lista",
+            "Gestionar las actualizaciones del estado",
+            "Optimizar las llamadas a la API",
+            "Controlar el enrutamiento"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Para qué se usa la API Context de React?",
+          "options": [
+            "Gestionar estados complejos",
+            "Compartir datos entre componentes sin tener que pasar props",
+            "Gestionar envíos de formularios",
+            "Optimizar el rendimiento"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "sql": {
+      "questions": [
+        {
+          "question": "¿Qué significa SQL?",
+          "options": [
+            "Lenguaje de Consulta Estructurado",
+            "Lenguaje de Consulta Simple",
+            "Lenguaje de Consulta Rápida Estructurada",
+            "Lenguaje de Consulta de Sistema"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué sentencia SQL se usa para recuperar datos de una base de datos?",
+          "options": ["SELECT", "GET", "RETRIEVE", "FETCH"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace la cláusula WHERE en SQL?",
+          "options": [
+            "Agrupa filas",
+            "Filtra filas según una condición",
+            "Ordena las filas",
+            "Elimina filas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué sentencia SQL se usa para agregar un nuevo registro a una tabla?",
+          "options": [
+            "INSERT INTO",
+            "ADD RECORD",
+            "CREATE RECORD",
+            "NEW RECORD"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace la cláusula JOIN en SQL?",
+          "options": [
+            "Combina filas de múltiples tablas",
+            "Elimina registros de múltiples tablas",
+            "Crea una nueva tabla",
+            "Actualiza múltiples tablas"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué palabra clave SQL se usa para ordenar los resultados de una consulta?",
+          "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hace la función COUNT en SQL?",
+          "options": [
+            "Cuenta el número de filas en una tabla",
+            "Cuenta el número de columnas en una tabla",
+            "Cuenta el número de caracteres en una cadena",
+            "Cuenta el número de tablas en una base de datos"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué sentencia SQL se usa para eliminar una tabla de una base de datos?",
+          "options": [
+            "DROP TABLE",
+            "DELETE TABLE",
+            "REMOVE TABLE",
+            "TRUNCATE TABLE"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es una clave primaria en SQL?",
+          "options": [
+            "Un identificador único para una fila en una tabla",
+            "Un campo utilizado para ordenar datos",
+            "Una clave de respaldo para una tabla",
+            "Una clave usada para indexar columnas"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué cláusula SQL se usa para agrupar filas con los mismos valores?",
+          "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+          "answer": 0
+        }
+      ]
+    },
+    "tailwindcss": {
+      "questions": [
+        {
+          "question": "¿Qué es Tailwind CSS?",
+          "options": [
+            "Un framework CSS para componentes pre-diseñados",
+            "Un framework CSS utilitario-first",
+            "Una biblioteca CSS-in-JS",
+            "Un motor de renderizado de navegador"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es el archivo principal utilizado para configurar Tailwind CSS?",
+          "options": [
+            "tailwind.config.js",
+            "styles.css",
+            "tailwind.json",
+            "config.css"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué comando inicializa un archivo de configuración de Tailwind CSS?",
+          "options": [
+            "tailwind init",
+            "tailwindcss create",
+            "npx tailwind init",
+            "npx tailwindcss config"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se añaden colores personalizados en Tailwind CSS?",
+          "options": [
+            "Directamente en el HTML",
+            "En el archivo tailwind.config.js bajo la propiedad `extend`",
+            "Usando estilos CSS en línea",
+            "Creando un nuevo archivo CSS"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué clase utilitaria en Tailwind CSS aplica padding a todos los lados?",
+          "options": ["p", "px", "py", "pd"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué clase utilitaria centra un elemento horizontalmente en Tailwind CSS?",
+          "options": ["m-auto", "center", "mx-auto", "align-center"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hace la directiva `@apply` en Tailwind CSS?",
+          "options": [
+            "Importa Tailwind CSS a un proyecto",
+            "Aplica clases utilitarias de Tailwind dentro de CSS personalizado",
+            "Genera breakpoints responsivos",
+            "Compila CSS más rápido"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se activa el modo oscuro en Tailwind CSS?",
+          "options": [
+            "Agregando la clase `dark` a los elementos",
+            "Configurando la propiedad `darkMode` en tailwind.config.js",
+            "Usando estilos en línea",
+            "Descargando un plugin"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué prefijo se usa para los estilos hover en Tailwind CSS?",
+          "options": ["hover:", "onhover:", "hovered:", "h:"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es el propósito de `purge` en la configuración de Tailwind CSS?",
+          "options": [
+            "Eliminar el CSS no utilizado",
+            "Vaciar el caché",
+            "Restablecer los estilos",
+            "Eliminar los temas personalizados"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "typescript": {
+      "questions": [
+        {
+          "question": "¿Qué es TypeScript?",
+          "options": [
+            "Una herramienta de gestión de bases de datos",
+            "Un superconjunto de JavaScript que agrega tipado estático",
+            "Un preprocesador de CSS",
+            "Una versión de JavaScript para navegadores antiguos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué palabra clave se utiliza en TypeScript para definir un tipo?",
+          "options": [
+            "type",
+            "interface",
+            "tanto type como interface",
+            "typedef"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hace la palabra clave `as` en TypeScript?",
+          "options": [
+            "Especifica explícitamente un tipo de datos",
+            "Crea un alias para un tipo",
+            "Maneja excepciones",
+            "Convierte una expresión en un tipo específico"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "¿Cuál es la extensión de archivo para los archivos TypeScript?",
+          "options": [".js", ".ts", ".tsx", ".jsx"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es una ventaja principal de TypeScript sobre JavaScript?",
+          "options": [
+            "Rendimiento mejorado",
+            "Verificación de tipos estáticos",
+            "Sintaxis simplificada",
+            "Generación automática de UI"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se define un tipo de unión en TypeScript?",
+          "options": [
+            "Usando el símbolo `&`",
+            "Usando el símbolo `|`",
+            "Usando `:` antes del tipo",
+            "Usando `||` entre los tipos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es el propósito del tipo `never` en TypeScript?",
+          "options": [
+            "Representar valores que siempre son verdaderos",
+            "Representar código inalcanzable o funciones que nunca devuelven un valor",
+            "Representar valores opcionales",
+            "Representar variables no inicializadas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo especificas una propiedad opcional en una interfaz TypeScript?",
+          "options": [
+            "Añadiendo un `?` al nombre de la propiedad",
+            "Usando la palabra clave `optional`",
+            "Añadiendo `undefined` como tipo",
+            "Declarando la propiedad sin tipo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué comando compila archivos TypeScript a JavaScript?",
+          "options": ["tsc", "compile-ts", "ts-build", "typescript-compile"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué característica de TypeScript permite reutilizar tipos en el código?",
+          "options": ["Generics", "Enums", "Modules", "Decorators"],
+          "answer": 0
+        }
+      ]
+    },
+    "vercel": {
+      "questions": [
+        {
+          "question": "¿Para qué se utiliza principalmente Vercel?",
+          "options": [
+            "Desarrollo de videojuegos",
+            "Alojamiento web estático y dinámico",
+            "Alojamiento de aplicaciones móviles",
+            "Almacenamiento en la nube"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué marco de trabajo fue creado por Vercel?",
+          "options": ["React", "Next.js", "Vue.js", "Svelte"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué comando despliega un proyecto en Vercel?",
+          "options": [
+            "vercel deploy",
+            "vc deploy",
+            "vercel push",
+            "deploy-now"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tipo de funciones proporciona Vercel para la lógica backend?",
+          "options": [
+            "Funciones sin servidor",
+            "Servidores dedicados",
+            "Contenedores",
+            "Funciones con estado"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué optimiza la red de borde de Vercel?",
+          "options": [
+            "Rendimiento de juegos",
+            "Generación de sitios estáticos",
+            "Entrega y caché global",
+            "Consultas a bases de datos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se llama el sistema de despliegue de vista previa de Vercel?",
+          "options": [
+            "Modo de vista previa",
+            "Despliegues por rama",
+            "Construcciones de prueba",
+            "Vistas previas de despliegue"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "¿Cuál es la rama predeterminada para despliegues en producción en Vercel?",
+          "options": ["main", "master", "production", "deploy"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué característica de Vercel permite la colaboración en los despliegues?",
+          "options": [
+            "Tokens de acceso",
+            "Equipos",
+            "Hooks de despliegue",
+            "URLs compartidas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Puedes desplegar proyectos que no sean de Next.js en Vercel?",
+          "options": [
+            "Sí",
+            "No",
+            "Solo si es un proyecto React",
+            "Solo si es un proyecto Node.js"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué configura automáticamente Vercel para cada despliegue?",
+          "options": [
+            "Integración continua",
+            "Conexiones a bases de datos",
+            "HTTPS y dominios",
+            "Rutas API"
+          ],
+          "answer": 2
+        }
+      ]
+    }
   }
 }

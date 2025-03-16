@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 
 export default function ErrorPage() {
-  const t = useTranslations("ErrorPage");
+  const t = useTranslations("error");
 
   return (
     <div className="mx-auto flex flex-col items-center justify-center text-center">

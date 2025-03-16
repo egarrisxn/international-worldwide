@@ -1,12 +1,12 @@
 {
-  "Theme": "Thema",
-  "PrivateLayout": {
+  "theme": "Thema",
+  "private": {
     "home": "Startseite",
     "logout": "Abmelden",
     "profile": "Profil",
     "quiz": "Quiz"
   },
-  "LocaleSwitcher": {
+  "localeswitcher": {
     "de": "Deutsch",
     "en": "Englisch",
     "ar": "Arabisch",
@@ -17,7 +17,7 @@
     "ru": "Russisch",
     "label": "Sprache"
   },
-  "LoginPage": {
+  "login": {
     "credentials": "Anmeldedaten: jane@doe.com / next-intl",
     "description": "Bitte geben Sie Ihre Daten ein.",
     "email": "Email",
@@ -28,24 +28,876 @@
     "password": "Passwort",
     "title": "Willkommen zurück"
   },
-  "HomePage": {
+  "home": {
     "title": "Startseite",
     "description": "Willkommen zu Hause! Hier finden Sie die neuesten Updates, ausgewählte Artikel und hilfreiche Ressourcen, um mit unserer Plattform zu beginnen. Erkunden Sie unsere Inhalte und genießen Sie Ihren Aufenthalt!"
   },
-  "ProfilePage": {
+  "profile": {
     "title": "Profil",
     "description": "Hier ist deine Profilseite! Sieh dir deine persönlichen Informationen an, aktualisiere sie, verfolge deine Aktivitäten und verwalte deine Einstellungen. Passe deine Erfahrung an deine Bedürfnisse an und bleibe mit deiner Community in Verbindung."
   },
-  "QuizPage": {
+  "quiz": {
     "title": "Quiz",
     "description": "Hier ist deine Quiz-Seite! Wählen Sie eine der Kategorien unten aus, testen Sie Ihr Wissen zu diesem Thema und vergleichen Sie Ihre Punktzahl mit anderen!"
   },
-  "ErrorPage": {
+  "error": {
     "title": "Etwas ist schief gelaufen!",
     "description": "Es ist leider ein Problem aufgetreten. Du kannst versuchen diese Seite neu zu laden."
   },
-  "NotFoundPage": {
+  "notfound": {
     "title": "Seite nicht gefunden",
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+  },
+  "subject": {
+    "css": {
+      "questions": [
+        {
+          "question": "Wofür steht CSS?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche Eigenschaft wird verwendet, um die Textfarbe in CSS zu ändern?",
+          "options": ["color", "text-color", "font-color", "background-color"],
+          "answer": 0
+        },
+        {
+          "question": "Was ist die korrekte Syntax, um eine Klasse in CSS anzuwenden?",
+          "options": [
+            ".classname { ... }",
+            "#classname { ... }",
+            "*classname { ... }",
+            "classname { ... }"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche CSS-Eigenschaft steuert die Größe des Textes?",
+          "options": ["font-size", "text-size", "size", "font-style"],
+          "answer": 0
+        },
+        {
+          "question": "Wie machst du eine Hintergrundfarbe transparent in CSS?",
+          "options": [
+            "background-color: none",
+            "background-color: transparent",
+            "background: invisible",
+            "background-opacity: 0"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Was ist die Standardpositionierung eines Elements in CSS?",
+          "options": ["static", "relative", "absolute", "fixed"],
+          "answer": 0
+        },
+        {
+          "question": "Welche Eigenschaft wird verwendet, um den Abstand zwischen Textzeilen festzulegen?",
+          "options": [
+            "line-height",
+            "letter-spacing",
+            "text-spacing",
+            "height"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was bewirkt die Eigenschaft z-index in CSS?",
+          "options": [
+            "Steuert die Größe eines Elements",
+            "Steuert die Stapelreihenfolge von Elementen",
+            "Steuert die Sichtbarkeit eines Elements",
+            "Steuert die Textausrichtung"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welche Pseudo-Klasse zielt auf das erste Kind eines Elements ab?",
+          "options": [":first", ":first-child", ":child(1)", ":first-element"],
+          "answer": 1
+        },
+        {
+          "question": "Was ist der Zweck der @media-Regel in CSS?",
+          "options": [
+            "Um Stile für verschiedene Bildschirmgrößen oder Geräte zu definieren",
+            "Um externe CSS-Dateien zu importieren",
+            "Um Schriftarteigenschaften festzulegen",
+            "Um Animationen zu Elementen hinzuzufügen"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "html": {
+      "questions": [
+        {
+          "question": "Was bedeutet HTML?",
+          "options": [
+            "HyperText Markup Language",
+            "HyperText Machine Language",
+            "Hyperlink and Text Markup Language",
+            "Home Tool Markup Language"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welches Tag wird verwendet, um einen Hyperlink in HTML zu erstellen?",
+          "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+          "answer": 0
+        },
+        {
+          "question": "Was ist der Zweck des <head>-Tags in einem HTML-Dokument?",
+          "options": [
+            "Zum Definieren des Körperinhalts",
+            "Zum Enthalten von Metadaten und Links zu externen Ressourcen",
+            "Zum Anzeigen des Hauptinhalts",
+            "Zum Erstellen von Überschriften"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welches HTML-Element wird verwendet, um ein Bild einzufügen?",
+          "options": ["<img>", "<image>", "<picture>", "<src>"],
+          "answer": 0
+        },
+        {
+          "question": "Welches Attribut wird verwendet, um alternativen Text für ein Bild bereitzustellen?",
+          "options": ["title", "alt", "src", "description"],
+          "answer": 1
+        },
+        {
+          "question": "Welches Tag wird verwendet, um eine Tabellenzeile in HTML zu definieren?",
+          "options": ["<tr>", "<td>", "<th>", "<row>"],
+          "answer": 0
+        },
+        {
+          "question": "Welches HTML-Tag ist für die größte Überschrift?",
+          "options": ["<h1>", "<heading>", "<h6>", "<head>"],
+          "answer": 0
+        },
+        {
+          "question": "Welches HTML-Attribut wird verwendet, um eine eindeutige Kennung für ein Element anzugeben?",
+          "options": ["class", "id", "name", "key"],
+          "answer": 1
+        },
+        {
+          "question": "Wie kannst du eine geordnete Liste in HTML erstellen?",
+          "options": ["<ul>", "<ol>", "<li>", "<list>"],
+          "answer": 1
+        },
+        {
+          "question": "Was macht das <form>-Element in HTML?",
+          "options": [
+            "Erstellt eine Tabelle",
+            "Definiert einen Container für Multimedia",
+            "Sammelt Benutzereingaben",
+            "Zeigt Textinhalt an"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "javascript": {
+      "questions": [
+        {
+          "question": "Welcher der folgenden ist ein JavaScript-Datentyp?",
+          "options": ["String", "HTML", "CSS", "JSON"],
+          "answer": 0
+        },
+        {
+          "question": "Welches Schlüsselwort wird verwendet, um eine Variable in JavaScript zu deklarieren?",
+          "options": ["var", "let", "const", "Alle oben genannten"],
+          "answer": 3
+        },
+        {
+          "question": "Welche Methode wird verwendet, um eine JSON-Zeichenkette in ein JavaScript-Objekt zu parsen?",
+          "options": [
+            "JSON.stringify",
+            "JSON.parse",
+            "parseJSON",
+            "String.toJSON"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Was ist das Ergebnis von `typeof null` in JavaScript?",
+          "options": ["null", "object", "undefined", "string"],
+          "answer": 1
+        },
+        {
+          "question": "Was überprüft der `===` Operator in JavaScript?",
+          "options": [
+            "Gleichheit von Wert und Typ",
+            "Gleichheit von nur Wert",
+            "Ungleichheit von Wert",
+            "Keine der oben genannten"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche Funktion wird verwendet, um die Ausführung von Code nach einer festgelegten Zeit zu planen?",
+          "options": ["setTimeout", "setInterval", "setTime", "schedule"],
+          "answer": 0
+        },
+        {
+          "question": "Was ist der Gültigkeitsbereich einer `let`-Variable, die innerhalb eines Blocks deklariert wird?",
+          "options": [
+            "Global",
+            "Funktion",
+            "Block",
+            "Keine der oben genannten"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Was macht die Methode `Array.prototype.map`?",
+          "options": [
+            "Sortiert das Array",
+            "Filtert das Array",
+            "Erstellt ein neues Array mit transformierten Elementen",
+            "Entfernt doppelte Elemente"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Welches der folgenden ist kein JavaScript-Framework/Bibliothek?",
+          "options": ["React", "Angular", "Django", "Vue"],
+          "answer": 2
+        },
+        {
+          "question": "Was ist der Zweck des `Promise`-Objekts in JavaScript?",
+          "options": [
+            "Verarbeitung synchroner Operationen",
+            "Verarbeitung asynchroner Operationen",
+            "Durchführung von mathematischen Operationen",
+            "Verwaltung von Event-Listenern"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "nextjs": {
+      "questions": [
+        {
+          "question": "Welches Unternehmen hat Next.js erstellt?",
+          "options": ["Google", "Vercel", "Facebook", "Amazon"],
+          "answer": 1
+        },
+        {
+          "question": "Welche Methode ruft Daten bei jeder Anfrage in Next.js ab?",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "getInitialProps",
+            "useEffect"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Was ist das Standardrender-Verhalten in Next.js?",
+          "options": [
+            "Client-seitiges Rendering",
+            "Statische Seiten-Generierung",
+            "Server-seitiges Rendering",
+            "Dynamisches Rendering"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welches Component umhüllt deine App für globale Einstellungen im Next.js App Router?",
+          "options": ["_app.js", "layout.js", "_document.js", "page.js"],
+          "answer": 1
+        },
+        {
+          "question": "Welcher Hook ist exklusiv für Routing in Next.js?",
+          "options": ["useNavigate", "useRouter", "useHistory", "useRoutes"],
+          "answer": 1
+        },
+        {
+          "question": "Wie aktivierst du dynamische Routen in Next.js?",
+          "options": [
+            "Erstelle eine `routes.js` Datei",
+            "Verwende die `DynamicRoutes` API",
+            "Füge `[param]` Dateien im `pages` oder `app` Verzeichnis hinzu",
+            "Füge Routen zu `next.config.js` hinzu"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Was bedeutet ISR in Next.js?",
+          "options": [
+            "Sofortiges Server-Rendering",
+            "Inkrementelle statische Regeneration",
+            "Interne Zustands-Routen",
+            "Im-Speicher Server-Rendering"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wie legst du eine Fallback-Seite für eine dynamische Route fest?",
+          "options": [
+            "Verwende `getStaticProps`",
+            "Verwende `fallback: true` in `getStaticPaths`",
+            "Verwende `useRouter`",
+            "Füge eine `[fallback].js` Datei hinzu"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welcher Befehl startet den Entwicklungsserver von Next.js?",
+          "options": [
+            "npm run dev",
+            "npm run start",
+            "npx next-dev",
+            "npm build"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche Funktion bietet Next.js für mehrsprachige Webseiten?",
+          "options": ["SSR", "I18n", "Dynamische Importe", "Statische Exporte"],
+          "answer": 1
+        }
+      ]
+    },
+    "nodejs": {
+      "questions": [
+        {
+          "question": "Was ist Node.js?",
+          "options": [
+            "Ein Frontend-Framework",
+            "Eine Laufzeitumgebung für JavaScript",
+            "Ein Datenbankmanagementsystem",
+            "Ein CSS-Präprozessor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welches Modul wird in Node.js verwendet, um einen Server zu erstellen?",
+          "options": ["http", "fs", "url", "net"],
+          "answer": 0
+        },
+        {
+          "question": "Wie installierst du ein Paket in einem Node.js-Projekt?",
+          "options": [
+            "npm install <package>",
+            "node install <package>",
+            "install <package>",
+            "node get <package>"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was ist der Standard-Dateiname für den Einstiegspunkt einer Node.js-Anwendung?",
+          "options": ["app.js", "server.js", "index.js", "main.js"],
+          "answer": 2
+        },
+        {
+          "question": "Welcher Befehl initialisiert ein neues Node.js-Projekt?",
+          "options": ["npm init", "node init", "node create", "npm start"],
+          "answer": 0
+        },
+        {
+          "question": "Was ist der Zweck des `fs`-Moduls in Node.js?",
+          "options": [
+            "Verwaltung von Dateisystemoperationen",
+            "Verwaltung von HTTP-Anfragen",
+            "Erstellung von Servern",
+            "Interaktion mit Datenbanken"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was macht die Funktion `require()` in Node.js?",
+          "options": [
+            "Importiert ein Modul",
+            "Exportiert eine Funktion",
+            "Führt eine Node.js-Anwendung aus",
+            "Startet den Server"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche Methode wird verwendet, um eine Datei synchron in Node.js zu lesen?",
+          "options": [
+            "fs.readFile()",
+            "fs.readSync()",
+            "fs.readFileSync()",
+            "fs.syncRead()"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Was ist der Zweck von Middleware in Node.js?",
+          "options": [
+            "Mit der Datenbank verbinden",
+            "HTTP-Antworten verwalten",
+            "Anfragen bearbeiten, bevor sie den Routen-Handler erreichen",
+            "Statische Dateien bereitstellen"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Welches Framework wird häufig mit Node.js für Webanwendungen verwendet?",
+          "options": ["Express", "React", "Vue", "Angular"],
+          "answer": 0
+        }
+      ]
+    },
+    "react": {
+      "questions": [
+        {
+          "question": "Wofür wird React hauptsächlich verwendet?",
+          "options": [
+            "Backend-Entwicklung",
+            "Erstellung von Benutzeroberflächen",
+            "Datenbankverwaltung",
+            "Server-Side-Rendering"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wer hat React entwickelt?",
+          "options": ["Google", "Facebook (Meta)", "Microsoft", "Apple"],
+          "answer": 1
+        },
+        {
+          "question": "Was ist JSX?",
+          "options": [
+            "Eine JavaScript-Bibliothek",
+            "Eine Syntaxerweiterung für JavaScript",
+            "Ein Tool zur Typüberprüfung",
+            "Ein CSS-Framework"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welcher React-Hook wird verwendet, um den Zustand in einer funktionalen Komponente zu verwalten?",
+          "options": ["useEffect", "useState", "useReducer", "useRef"],
+          "answer": 1
+        },
+        {
+          "question": "Was macht der `useEffect` Hook?",
+          "options": [
+            "Verwaltet Lebenszyklusereignisse der Komponente",
+            "Verwaltet Zustandsaktualisierungen",
+            "Interagiert direkt mit dem DOM",
+            "Verwaltet Routing in React"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was ist das virtuelle DOM in React?",
+          "options": [
+            "Eine Kopie des echten DOMs, das im Speicher gespeichert ist",
+            "Ein Tool für Datenbankabfragen",
+            "Eine Methode für Server-Side-Rendering",
+            "Eine Browser-API für DOM-Manipulation"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Wie übergibst du Daten von einer Elternkomponente zu einer Kindkomponente?",
+          "options": ["Mit props", "Mit state", "Mit context", "Mit Redux"],
+          "answer": 0
+        },
+        {
+          "question": "Was macht `useRef` in React?",
+          "options": [
+            "Verwaltet Zustandsaktualisierungen",
+            "Erstellt eine Referenz auf ein DOM-Element oder einen Wert",
+            "Verwaltet asynchrone Operationen",
+            "Richtet Routing ein"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Was ist der Zweck von React-Schlüsseln?",
+          "options": [
+            "Um eindeutige Elemente in einer Liste zu identifizieren",
+            "Um Zustandsaktualisierungen zu verwalten",
+            "Um API-Aufrufe zu optimieren",
+            "Um das Routing zu steuern"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Wofür wird die Context-API in React verwendet?",
+          "options": [
+            "Verwalten komplexer Zustände",
+            "Daten zwischen Komponenten teilen ohne Props-Bohrung",
+            "Verarbeiten von Formularübermittlungen",
+            "Optimierung der Leistung"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "sql": {
+      "questions": [
+        {
+          "question": "Was bedeutet SQL?",
+          "options": [
+            "Structured Query Language",
+            "Simple Query Language",
+            "Structured Quick Language",
+            "System Query Language"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche SQL-Anweisung wird verwendet, um Daten aus einer Datenbank abzurufen?",
+          "options": ["SELECT", "GET", "RETRIEVE", "FETCH"],
+          "answer": 0
+        },
+        {
+          "question": "Was macht die WHERE-Klausel in SQL?",
+          "options": [
+            "Gruppiert Zeilen",
+            "Filtert Zeilen basierend auf einer Bedingung",
+            "Sortiert die Zeilen",
+            "Löscht Zeilen"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welche SQL-Anweisung wird verwendet, um einen neuen Datensatz in eine Tabelle einzufügen?",
+          "options": [
+            "INSERT INTO",
+            "ADD RECORD",
+            "CREATE RECORD",
+            "NEW RECORD"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was macht die JOIN-Klausel in SQL?",
+          "options": [
+            "Verbindet Zeilen aus mehreren Tabellen",
+            "Löscht Datensätze aus mehreren Tabellen",
+            "Erstellt eine neue Tabelle",
+            "Aktualisiert mehrere Tabellen"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welches SQL-Schlüsselwort wird verwendet, um die Ergebnisse einer Abfrage zu sortieren?",
+          "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+          "answer": 1
+        },
+        {
+          "question": "Was macht die COUNT-Funktion in SQL?",
+          "options": [
+            "Zählt die Anzahl der Zeilen in einer Tabelle",
+            "Zählt die Anzahl der Spalten in einer Tabelle",
+            "Zählt die Anzahl der Zeichen in einer Zeichenkette",
+            "Zählt die Anzahl der Tabellen in einer Datenbank"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche SQL-Anweisung wird verwendet, um eine Tabelle aus einer Datenbank zu löschen?",
+          "options": [
+            "DROP TABLE",
+            "DELETE TABLE",
+            "REMOVE TABLE",
+            "TRUNCATE TABLE"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was ist ein Primärschlüssel in SQL?",
+          "options": [
+            "Ein eindeutiger Bezeichner für eine Zeile in einer Tabelle",
+            "Ein Feld zum Sortieren von Daten",
+            "Ein Sicherungsschlüssel für eine Tabelle",
+            "Ein Schlüssel zum Indizieren von Spalten"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche SQL-Klausel wird verwendet, um Zeilen mit denselben Werten zu gruppieren?",
+          "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+          "answer": 0
+        }
+      ]
+    },
+    "tailwindcss": {
+      "questions": [
+        {
+          "question": "Was ist Tailwind CSS?",
+          "options": [
+            "Ein CSS-Framework für vorgefertigte Komponenten",
+            "Ein Utility-First CSS-Framework",
+            "Eine CSS-in-JS-Bibliothek",
+            "Ein Browser-Rendering-Engine"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welche Datei wird hauptsächlich zur Konfiguration von Tailwind CSS verwendet?",
+          "options": [
+            "tailwind.config.js",
+            "styles.css",
+            "tailwind.json",
+            "config.css"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welcher Befehl initialisiert eine Tailwind CSS-Konfigurationsdatei?",
+          "options": [
+            "tailwind init",
+            "tailwindcss create",
+            "npx tailwind init",
+            "npx tailwindcss config"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Wie fügt man benutzerdefinierte Farben in Tailwind CSS hinzu?",
+          "options": [
+            "Direkt im HTML",
+            "In der Datei tailwind.config.js unter der Eigenschaft `extend`",
+            "Mit Inline-CSS-Stilen",
+            "Indem man eine neue CSS-Datei erstellt"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welche Utility-Klasse in Tailwind CSS fügt Padding auf allen Seiten hinzu?",
+          "options": ["p", "px", "py", "pd"],
+          "answer": 0
+        },
+        {
+          "question": "Welche Utility-Klasse zentriert ein Element horizontal in Tailwind CSS?",
+          "options": ["m-auto", "center", "mx-auto", "align-center"],
+          "answer": 2
+        },
+        {
+          "question": "Was macht die `@apply`-Direktive in Tailwind CSS?",
+          "options": [
+            "Importiert Tailwind CSS in ein Projekt",
+            "Wendet Tailwind-Utility-Klassen in benutzerdefiniertem CSS an",
+            "Generiert responsive Breakpoints",
+            "Kompiliert CSS schneller"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wie aktiviert man den Dunkelmodus in Tailwind CSS?",
+          "options": [
+            "Indem man die `dark`-Klasse zu den Elementen hinzufügt",
+            "Indem man die `darkMode`-Eigenschaft in tailwind.config.js konfiguriert",
+            "Indem man Inline-Styles verwendet",
+            "Indem man ein Plugin herunterlädt"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welches Präfix wird für Hover-Stile in Tailwind CSS verwendet?",
+          "options": ["hover:", "onhover:", "hovered:", "h:"],
+          "answer": 0
+        },
+        {
+          "question": "Was ist der Zweck von `purge` in der Tailwind CSS-Konfiguration?",
+          "options": [
+            "Entfernen von ungenutztem CSS",
+            "Leeren des Caches",
+            "Zurücksetzen von Stilen",
+            "Löschen von benutzerdefinierten Themen"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "typescript": {
+      "questions": [
+        {
+          "question": "Was ist TypeScript?",
+          "options": [
+            "Ein Datenbankverwaltungstool",
+            "Ein Superset von JavaScript, das statische Typisierung hinzufügt",
+            "Ein CSS-Präprozessor",
+            "Eine Version von JavaScript für ältere Browser"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welches Schlüsselwort wird in TypeScript verwendet, um einen Typ zu definieren?",
+          "options": [
+            "type",
+            "interface",
+            "sowohl type als auch interface",
+            "typedef"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Was macht das Schlüsselwort `as` in TypeScript?",
+          "options": [
+            "Gibt explizit einen Datentyp an",
+            "Erstellt einen Alias für einen Typ",
+            "Behandelt Ausnahmen",
+            "Konvertiert einen Ausdruck in einen bestimmten Typ"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Welche Dateierweiterung haben TypeScript-Dateien?",
+          "options": [".js", ".ts", ".tsx", ".jsx"],
+          "answer": 1
+        },
+        {
+          "question": "Was ist ein großer Vorteil von TypeScript gegenüber JavaScript?",
+          "options": [
+            "Verbesserte Leistung",
+            "Statische Typüberprüfung",
+            "Vereinfachte Syntax",
+            "Automatische UI-Generierung"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wie kann man in TypeScript einen Union-Typ definieren?",
+          "options": [
+            "Mit dem Symbol `&`",
+            "Mit dem Symbol `|`",
+            "Mit `:` vor dem Typ",
+            "Mit `||` zwischen Typen"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Was ist der Zweck des `never` Typs in TypeScript?",
+          "options": [
+            "Um Werte darzustellen, die immer wahr sind",
+            "Um nicht erreichbaren Code oder Funktionen, die nie zurückkehren, darzustellen",
+            "Um optionale Werte darzustellen",
+            "Um nicht initialisierte Variablen darzustellen"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wie gibt man in einer TypeScript-Schnittstelle eine optionale Eigenschaft an?",
+          "options": [
+            "Indem man ein `?` zum Eigenschaftsnamen hinzufügt",
+            "Indem man das Schlüsselwort `optional` verwendet",
+            "Indem man `undefined` als Typ hinzufügt",
+            "Indem man die Eigenschaft ohne Typ deklariert"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welcher Befehl kompiliert TypeScript-Dateien zu JavaScript?",
+          "options": ["tsc", "compile-ts", "ts-build", "typescript-compile"],
+          "answer": 0
+        },
+        {
+          "question": "Welche TypeScript-Funktion ermöglicht die Wiederverwendung von Typen im Code?",
+          "options": ["Generics", "Enums", "Modules", "Decorators"],
+          "answer": 0
+        }
+      ]
+    },
+    "vercel": {
+      "questions": [
+        {
+          "question": "Wofür wird Vercel hauptsächlich verwendet?",
+          "options": [
+            "Spielentwicklung",
+            "Statische und dynamische Web-Hosting",
+            "Mobile App-Hosting",
+            "Cloud-Speicher"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Welches Framework wurde von Vercel erstellt?",
+          "options": ["React", "Next.js", "Vue.js", "Svelte"],
+          "answer": 1
+        },
+        {
+          "question": "Welcher Befehl stellt ein Projekt auf Vercel bereit?",
+          "options": [
+            "vercel deploy",
+            "vc deploy",
+            "vercel push",
+            "deploy-now"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Welche Art von Funktionen bietet Vercel für Backend-Logik?",
+          "options": [
+            "Serverlose Funktionen",
+            "Dedizierte Server",
+            "Container",
+            "Zustandsbehaftete Funktionen"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was optimiert Vercels Edge-Netzwerk?",
+          "options": [
+            "Spielperformance",
+            "Statische Seitengenerierung",
+            "Globale Bereitstellung und Caching",
+            "Datenbankabfragen"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Wie heißt das Vorschau-Bereitstellungssystem von Vercel?",
+          "options": [
+            "Vorschau-Modus",
+            "Branch-Bereitstellungen",
+            "Test-Bauten",
+            "Bereitstellungs-Vorschauen"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Welcher Branch ist der Standard für die Produktionsbereitstellung auf Vercel?",
+          "options": ["main", "master", "production", "deploy"],
+          "answer": 0
+        },
+        {
+          "question": "Welche Funktion von Vercel ermöglicht die Zusammenarbeit an Bereitstellungen?",
+          "options": [
+            "Access Tokens",
+            "Teams",
+            "Deployment Hooks",
+            "Shared URLs"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Kannst du Nicht-Next.js-Projekte auf Vercel bereitstellen?",
+          "options": [
+            "Ja",
+            "Nein",
+            "Nur wenn es sich um ein React-Projekt handelt",
+            "Nur wenn es sich um ein Node.js-Projekt handelt"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Was konfiguriert Vercel automatisch für jede Bereitstellung?",
+          "options": [
+            "Continuous Integration",
+            "Datenbankverbindungen",
+            "HTTPS und Domains",
+            "API-Routen"
+          ],
+          "answer": 2
+        }
+      ]
+    }
   }
 }

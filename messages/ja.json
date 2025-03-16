@@ -1,12 +1,12 @@
 {
-  "Theme": "テーマ",
-  "PrivateLayout": {
+  "theme": "テーマ",
+  "private": {
     "home": "ホーム",
     "logout": "ログアウト",
     "profile": "プロフィール",
     "quiz": "クイズ"
   },
-  "LocaleSwitcher": {
+  "localeswitcher": {
     "de": "ドイツ語",
     "en": "英語",
     "ar": "アラビア語",
@@ -17,7 +17,7 @@
     "ru": "ロシア語",
     "label": "言語"
   },
-  "LoginPage": {
+  "login": {
     "credentials": "認証情報：jane@doe.com / next-intl",
     "description": "詳細を入力してください。",
     "email": "メールアドレス",
@@ -28,24 +28,782 @@
     "password": "パスワード",
     "title": "お帰りなさい"
   },
-  "HomePage": {
+  "home": {
     "title": "ホーム",
     "description": "ようこそホームページへ！ここでは、最新の更新情報、特集記事、プラットフォームの利用を始めるための役立つリソースを見つけることができます。コンテンツを探索して、楽しい時間をお過ごしください！"
   },
-  "ProfilePage": {
+  "profile": {
     "title": "プロフィール",
     "description": "こちらがあなたのプロフィールページです！個人情報を表示・更新し、アクティビティを追跡し、設定を管理できます。あなたのニーズに合わせて体験をカスタマイズし、コミュニティと繋がり続けましょう。"
   },
-  "QuizPage": {
+  "quiz": {
     "title": "クイズ",
     "description": "こちらがクイズページです！下のカテゴリから選んで、トピックに関する知識をテストし、他の人とスコアを比較しましょう！"
   },
-  "ErrorPage": {
+  "error": {
     "title": "問題が発生しました！",
     "description": "申し訳ありませんが、エラーが発生しました。訪れていたページを再読み込みしてみてください。"
   },
-  "NotFoundPage": {
+  "notfound": {
     "title": "ページが見つかりません",
     "description": "ブラウザのアドレスバーを再度確認するか、ナビゲーションを使用して既知のページに移動してください。"
+  },
+  "subject": {
+    "css": {
+      "questions": [
+        {
+          "question": "CSSの略は何ですか？",
+          "options": [
+            "カスケーディングスタイルシート",
+            "コンピュータースタイルシート",
+            "クリエイティブスタイルシステム",
+            "カラフルスタイルシート"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "CSSでテキストの色を変更するために使用するプロパティはどれですか？",
+          "options": ["color", "text-color", "font-color", "background-color"],
+          "answer": 0
+        },
+        {
+          "question": "CSSでクラスを適用する正しい構文はどれですか？",
+          "options": [
+            ".classname { ... }",
+            "#classname { ... }",
+            "*classname { ... }",
+            "classname { ... }"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "CSSでテキストのサイズを制御するプロパティはどれですか？",
+          "options": ["font-size", "text-size", "size", "font-style"],
+          "answer": 0
+        },
+        {
+          "question": "CSSで背景色を透明にする方法はどれですか？",
+          "options": [
+            "background-color: none",
+            "background-color: transparent",
+            "background: invisible",
+            "background-opacity: 0"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CSSで要素のデフォルトの位置はどれですか？",
+          "options": ["static", "relative", "absolute", "fixed"],
+          "answer": 0
+        },
+        {
+          "question": "CSSでテキスト行の間隔を設定するプロパティはどれですか？",
+          "options": [
+            "line-height",
+            "letter-spacing",
+            "text-spacing",
+            "height"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "CSSでz-indexプロパティは何をしますか？",
+          "options": [
+            "要素のサイズを制御する",
+            "要素のスタッキング順序を制御する",
+            "要素の表示を制御する",
+            "テキストの配置を制御する"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CSSで最初の子要素をターゲットにする擬似クラスはどれですか？",
+          "options": [":first", ":first-child", ":child(1)", ":first-element"],
+          "answer": 1
+        },
+        {
+          "question": "CSSで@mediaルールの目的は何ですか？",
+          "options": [
+            "異なる画面サイズやデバイスに対するスタイルを定義する",
+            "外部CSSファイルをインポートする",
+            "フォントのプロパティを指定する",
+            "要素にアニメーションを追加する"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "html": {
+      "questions": [
+        {
+          "question": "HTMLは何の略ですか？",
+          "options": [
+            "ハイパーテキストマークアップ言語",
+            "ハイパーテキストマシン言語",
+            "ハイパーリンクとテキストマークアップ言語",
+            "ホームツールマークアップ言語"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "HTMLでハイパーリンクを作成するために使用されるタグはどれですか？",
+          "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+          "answer": 0
+        },
+        {
+          "question": "<head>タグのHTMLドキュメントでの目的は何ですか？",
+          "options": [
+            "ボディコンテンツを定義するため",
+            "メタデータや外部リソースへのリンクを含むため",
+            "メインコンテンツを表示するため",
+            "ヘッディングを作成するため"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "HTMLで画像を挿入するために使用される要素はどれですか？",
+          "options": ["<img>", "<image>", "<picture>", "<src>"],
+          "answer": 0
+        },
+        {
+          "question": "画像に代替テキストを提供するために使用される属性はどれですか？",
+          "options": ["title", "alt", "src", "description"],
+          "answer": 1
+        },
+        {
+          "question": "HTMLでテーブル行を定義するために使用されるタグはどれですか？",
+          "options": ["<tr>", "<td>", "<th>", "<row>"],
+          "answer": 0
+        },
+        {
+          "question": "最も大きな見出しに正しいHTMLタグはどれですか？",
+          "options": ["<h1>", "<heading>", "<h6>", "<head>"],
+          "answer": 0
+        },
+        {
+          "question": "HTMLで要素に一意の識別子を指定するために使用される属性はどれですか？",
+          "options": ["class", "id", "name", "key"],
+          "answer": 1
+        },
+        {
+          "question": "HTMLで順序付きリストを作成する方法は？",
+          "options": ["<ul>", "<ol>", "<li>", "<list>"],
+          "answer": 1
+        },
+        {
+          "question": "HTMLの<form>要素は何をしますか？",
+          "options": [
+            "テーブルを作成する",
+            "マルチメディアコンテンツのためのコンテナを定義する",
+            "ユーザー入力を収集する",
+            "テキストコンテンツを表示する"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "javascript": {
+      "questions": [
+        {
+          "question": "次のうち、JavaScriptのデータ型はどれですか？",
+          "options": ["文字列", "HTML", "CSS", "JSON"],
+          "answer": 0
+        },
+        {
+          "question": "JavaScriptで変数を宣言するために使用されるキーワードはどれですか？",
+          "options": ["var", "let", "const", "すべての上記"],
+          "answer": 3
+        },
+        {
+          "question": "JSON文字列をJavaScriptオブジェクトに変換するために使用されるメソッドはどれですか？",
+          "options": [
+            "JSON.stringify",
+            "JSON.parse",
+            "parseJSON",
+            "String.toJSON"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "`typeof null`の結果はJavaScriptで何ですか？",
+          "options": ["null", "object", "undefined", "string"],
+          "answer": 1
+        },
+        {
+          "question": "`===` 演算子はJavaScriptで何を確認しますか？",
+          "options": [
+            "値と型の一致",
+            "値の一致のみ",
+            "値の不一致",
+            "上記のいずれでもない"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "指定した時間後にコードの実行をスケジュールするために使用される関数はどれですか？",
+          "options": ["setTimeout", "setInterval", "setTime", "schedule"],
+          "answer": 0
+        },
+        {
+          "question": "ブロック内で宣言された`let`変数のスコープはどれですか？",
+          "options": ["グローバル", "関数", "ブロック", "上記のいずれでもない"],
+          "answer": 2
+        },
+        {
+          "question": "`Array.prototype.map`メソッドは何をしますか？",
+          "options": [
+            "配列をソートする",
+            "配列をフィルタリングする",
+            "変換された要素を持つ新しい配列を作成する",
+            "重複した要素を削除する"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "次のうち、JavaScriptのフレームワーク/ライブラリではないのはどれですか？",
+          "options": ["React", "Angular", "Django", "Vue"],
+          "answer": 2
+        },
+        {
+          "question": "JavaScriptで`Promise`オブジェクトの目的は何ですか？",
+          "options": [
+            "同期操作の処理",
+            "非同期操作の処理",
+            "算術演算の実行",
+            "イベントリスナーの管理"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "nextjs": {
+      "questions": [
+        {
+          "question": "Next.jsを作成した会社はどこですか？",
+          "options": ["Google", "Vercel", "Facebook", "Amazon"],
+          "answer": 1
+        },
+        {
+          "question": "Next.jsで毎回リクエストごとにデータを取得するメソッドはどれですか？",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "getInitialProps",
+            "useEffect"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Next.jsのデフォルトのレンダリング動作は何ですか？",
+          "options": [
+            "クライアントサイドレンダリング",
+            "静的サイト生成",
+            "サーバーサイドレンダリング",
+            "動的レンダリング"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Next.jsのApp Routerでアプリのグローバル設定をラップするコンポーネントはどれですか？",
+          "options": ["_app.js", "layout.js", "_document.js", "page.js"],
+          "answer": 1
+        },
+        {
+          "question": "Next.jsでルーティングに特化したフックはどれですか？",
+          "options": ["useNavigate", "useRouter", "useHistory", "useRoutes"],
+          "answer": 1
+        },
+        {
+          "question": "Next.jsで動的ルートを有効にする方法はどれですか？",
+          "options": [
+            "`routes.js`ファイルを作成する",
+            "`DynamicRoutes` APIを使う",
+            "`pages`または`app`ディレクトリに`[param]`ファイルを追加する",
+            "`next.config.js`にルートを追加する"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Next.jsでISRは何の略ですか？",
+          "options": [
+            "即時サーバーレンダリング",
+            "インクリメンタル静的再生成",
+            "内部状態ルーティング",
+            "メモリ内サーバーレンダリング"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "動的ルートのフォールバックページを指定する方法はどれですか？",
+          "options": [
+            "`getStaticProps`を使用する",
+            "`getStaticPaths`で`fallback: true`を使用する",
+            "`useRouter`を使用する",
+            "`[fallback].js`ファイルを追加する"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Next.jsの開発サーバーを開始するコマンドはどれですか？",
+          "options": [
+            "npm run dev",
+            "npm run start",
+            "npx next-dev",
+            "npm build"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Next.jsが提供する多言語サイト用の機能はどれですか？",
+          "options": ["SSR", "I18n", "動的インポート", "静的エクスポート"],
+          "answer": 1
+        }
+      ]
+    },
+    "nodejs": {
+      "questions": [
+        {
+          "question": "Node.jsとは何ですか？",
+          "options": [
+            "フロントエンドのフレームワーク",
+            "JavaScriptの実行環境",
+            "データベース管理システム",
+            "CSSのプリプロセッサ"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Node.jsでサーバーを作成するために使用されるモジュールはどれですか？",
+          "options": ["http", "fs", "url", "net"],
+          "answer": 0
+        },
+        {
+          "question": "Node.jsプロジェクトでパッケージをインストールする方法は？",
+          "options": [
+            "npm install <package>",
+            "node install <package>",
+            "install <package>",
+            "node get <package>"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Node.jsアプリケーションのエントリーポイントのデフォルトのファイル名は？",
+          "options": ["app.js", "server.js", "index.js", "main.js"],
+          "answer": 2
+        },
+        {
+          "question": "新しいNode.jsプロジェクトを初期化するコマンドはどれですか？",
+          "options": ["npm init", "node init", "node create", "npm start"],
+          "answer": 0
+        },
+        {
+          "question": "Node.jsの`fs`モジュールの目的は？",
+          "options": [
+            "ファイルシステム操作を処理する",
+            "HTTPリクエストを管理する",
+            "サーバーを作成する",
+            "データベースとやり取りする"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Node.jsで`require()`関数は何をしますか？",
+          "options": [
+            "モジュールをインポートする",
+            "関数をエクスポートする",
+            "Node.jsアプリケーションを実行する",
+            "サーバーを開始する"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Node.jsでファイルを同期的に読み取るために使用されるメソッドはどれですか？",
+          "options": [
+            "fs.readFile()",
+            "fs.readSync()",
+            "fs.readFileSync()",
+            "fs.syncRead()"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Node.jsのmiddlewareの目的は何ですか？",
+          "options": [
+            "データベースに接続する",
+            "HTTPレスポンスを管理する",
+            "ルートハンドラーに到達する前にリクエストを処理する",
+            "静的ファイルを提供する"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Node.jsで一般的に使用されるWebアプリケーション用のフレームワークはどれですか？",
+          "options": ["Express", "React", "Vue", "Angular"],
+          "answer": 0
+        }
+      ]
+    },
+    "react": {
+      "questions": [
+        {
+          "question": "Reactは主に何に使用されますか？",
+          "options": [
+            "バックエンド開発",
+            "ユーザーインターフェイスの構築",
+            "データベース管理",
+            "サーバーサイドレンダリング"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Reactを開発したのは誰ですか？",
+          "options": ["Google", "Facebook (Meta)", "Microsoft", "Apple"],
+          "answer": 1
+        },
+        {
+          "question": "JSXとは何ですか？",
+          "options": [
+            "JavaScriptライブラリ",
+            "JavaScriptの構文拡張",
+            "型チェックツール",
+            "CSSフレームワーク"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Reactのフックのうち、関数コンポーネントで状態を管理するために使用されるのはどれですか？",
+          "options": ["useEffect", "useState", "useReducer", "useRef"],
+          "answer": 1
+        },
+        {
+          "question": "`useEffect`フックは何をしますか？",
+          "options": [
+            "コンポーネントのライフサイクルイベントを管理する",
+            "状態の更新を管理する",
+            "DOMと直接やり取りする",
+            "Reactのルーティングを処理する"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Reactの仮想DOMとは何ですか？",
+          "options": [
+            "メモリ内に保存された本物のDOMの複製",
+            "データベースクエリツール",
+            "サーバーサイドレンダリングの方法",
+            "DOM操作用のブラウザAPI"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "親コンポーネントから子コンポーネントにデータを渡す方法は？",
+          "options": [
+            "propsを使用する",
+            "stateを使用する",
+            "contextを使用する",
+            "Reduxを使用する"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Reactで`useRef`は何をしますか？",
+          "options": [
+            "状態の更新を管理する",
+            "DOM要素や値への参照を作成する",
+            "非同期操作を管理する",
+            "ルーティングを設定する"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Reactのキーの目的は何ですか？",
+          "options": [
+            "リスト内のユニークな要素を識別する",
+            "状態の更新を管理する",
+            "API呼び出しを最適化する",
+            "ルーティングを制御する"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ReactのContext APIは何に使用されますか？",
+          "options": [
+            "複雑な状態を管理する",
+            "propsのドリルダウンなしでコンポーネント間でデータを共有する",
+            "フォーム送信を処理する",
+            "パフォーマンスを最適化する"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "tailwindcss": {
+      "questions": [
+        {
+          "question": "Tailwind CSSとは何ですか？",
+          "options": [
+            "事前にデザインされたコンポーネントのためのCSSフレームワーク",
+            "ユーティリティファーストのCSSフレームワーク",
+            "CSS-in-JSライブラリ",
+            "ブラウザレンダリングエンジン"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tailwind CSSを設定するために使用される主要なファイルはどれですか？",
+          "options": [
+            "tailwind.config.js",
+            "styles.css",
+            "tailwind.json",
+            "config.css"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Tailwind CSSの設定ファイルを初期化するコマンドはどれですか？",
+          "options": [
+            "tailwind init",
+            "tailwindcss create",
+            "npx tailwind init",
+            "npx tailwindcss config"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Tailwind CSSでカスタムカラーを追加する方法は？",
+          "options": [
+            "HTML内で直接",
+            "tailwind.config.jsファイルの`extend`プロパティ内",
+            "インラインCSSスタイルを使用して",
+            "新しいCSSファイルを作成する"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tailwind CSSで全方向にパディングを適用するユーティリティクラスはどれですか？",
+          "options": ["p", "px", "py", "pd"],
+          "answer": 0
+        },
+        {
+          "question": "Tailwind CSSで要素を水平に中央に配置するユーティリティクラスはどれですか？",
+          "options": ["m-auto", "center", "mx-auto", "align-center"],
+          "answer": 2
+        },
+        {
+          "question": "Tailwind CSSの`@apply`ディレクティブは何をしますか？",
+          "options": [
+            "Tailwind CSSをプロジェクトにインポートする",
+            "カスタムCSS内でTailwindユーティリティクラスを適用する",
+            "レスポンシブブレークポイントを生成する",
+            "CSSをより高速にコンパイルする"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tailwind CSSでダークモードを有効にする方法は？",
+          "options": [
+            "要素に`dark`クラスを追加する",
+            "tailwind.config.jsで`darkMode`プロパティを設定する",
+            "インラインスタイルを使用する",
+            "プラグインをダウンロードする"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tailwind CSSでhoverスタイルに使用するプレフィックスはどれですか？",
+          "options": ["hover:", "onhover:", "hovered:", "h:"],
+          "answer": 0
+        },
+        {
+          "question": "Tailwind CSS設定で`purge`の目的は何ですか？",
+          "options": [
+            "未使用のCSSを削除する",
+            "キャッシュをクリアする",
+            "スタイルをリセットする",
+            "カスタムテーマを削除する"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "typescript": {
+      "questions": [
+        {
+          "question": "TypeScriptとは何ですか？",
+          "options": [
+            "データベース管理ツール",
+            "静的型付けを追加したJavaScriptのスーパーセット",
+            "CSSプリプロセッサ",
+            "古いブラウザ向けのJavaScriptのバージョン"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "TypeScriptで型を定義するために使用するキーワードはどれですか？",
+          "options": ["type", "interface", "typeとinterfaceの両方", "typedef"],
+          "answer": 2
+        },
+        {
+          "question": "TypeScriptの`as`キーワードは何をしますか？",
+          "options": [
+            "データ型を明示的に指定する",
+            "型のエイリアスを作成する",
+            "例外を処理する",
+            "式を特定の型にキャストする"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "TypeScriptファイルの拡張子は何ですか？",
+          "options": [".js", ".ts", ".tsx", ".jsx"],
+          "answer": 1
+        },
+        {
+          "question": "TypeScriptの主な利点はJavaScriptと比べて何ですか？",
+          "options": [
+            "パフォーマンスの向上",
+            "静的型チェック",
+            "簡略化された構文",
+            "UIの自動生成"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "TypeScriptでユニオン型を定義するにはどうすればよいですか？",
+          "options": [
+            "`&`記号を使う",
+            "`|`記号を使う",
+            "`:`を型の前に使う",
+            "`||`を型の間に使う"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "TypeScriptの`never`型の目的は何ですか？",
+          "options": [
+            "常に真である値を表す",
+            "到達不可能なコードや戻り値のない関数を表す",
+            "オプションの値を表す",
+            "初期化されていない変数を表す"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "TypeScriptのインターフェースでオプショナルなプロパティを指定するにはどうすればよいですか？",
+          "options": [
+            "プロパティ名の後に`?`を付ける",
+            "`optional`キーワードを使う",
+            "`undefined`を型として追加する",
+            "型を指定せずにプロパティを宣言する"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "TypeScriptファイルをJavaScriptにコンパイルするコマンドはどれですか？",
+          "options": ["tsc", "compile-ts", "ts-build", "typescript-compile"],
+          "answer": 0
+        },
+        {
+          "question": "TypeScriptの機能でコード全体で型の再利用を可能にするものはどれですか？",
+          "options": ["Generics", "Enums", "Modules", "Decorators"],
+          "answer": 0
+        }
+      ]
+    },
+    "vercel": {
+      "questions": [
+        {
+          "question": "Vercelは主に何に使用されますか？",
+          "options": [
+            "ゲーム開発",
+            "静的および動的なWebホスティング",
+            "モバイルアプリのホスティング",
+            "クラウドストレージ"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Vercelによって作成されたフレームワークはどれですか？",
+          "options": ["React", "Next.js", "Vue.js", "Svelte"],
+          "answer": 1
+        },
+        {
+          "question": "プロジェクトをVercelにデプロイするコマンドはどれですか？",
+          "options": [
+            "vercel deploy",
+            "vc deploy",
+            "vercel push",
+            "deploy-now"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Vercelはバックエンドロジックにどのような機能を提供していますか？",
+          "options": [
+            "サーバーレス機能",
+            "専用サーバー",
+            "コンテナ",
+            "ステートフル機能"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Vercelのエッジネットワークは何を最適化していますか？",
+          "options": [
+            "ゲームパフォーマンス",
+            "静的サイト生成",
+            "グローバル配信とキャッシング",
+            "データベースクエリ"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Vercelのプレビュー配信システムの名前は何ですか？",
+          "options": [
+            "プレビューモード",
+            "ブランチデプロイメント",
+            "テストビルド",
+            "デプロイプレビュー"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Vercelの本番デプロイメントのデフォルトブランチはどれですか？",
+          "options": ["main", "master", "production", "deploy"],
+          "answer": 0
+        },
+        {
+          "question": "Vercelのどの機能がデプロイメントでの共同作業を可能にしますか？",
+          "options": [
+            "アクセス トークン",
+            "チーム",
+            "デプロイフック",
+            "共有URL"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "VercelではNext.js以外のプロジェクトもデプロイできますか？",
+          "options": [
+            "はい",
+            "いいえ",
+            "Reactプロジェクトの場合のみ",
+            "Node.jsプロジェクトの場合のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Vercelは各デプロイメントのために自動的に何を設定しますか？",
+          "options": [
+            "継続的インテグレーション",
+            "データベース接続",
+            "HTTPSとドメイン",
+            "APIルート"
+          ],
+          "answer": 2
+        }
+      ]
+    }
   }
 }

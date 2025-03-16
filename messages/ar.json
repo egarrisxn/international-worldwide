@@ -1,12 +1,12 @@
 {
-  "Theme": "السمة",
-  "PrivateLayout": {
+  "theme": "السمة",
+  "private": {
     "home": "الصفحة الرئيسية",
     "logout": "تسجيل الخروج",
     "profile": "الملف الشخصي",
     "quiz": "اختبار"
   },
-  "LocaleSwitcher": {
+  "localeswitcher": {
     "de": "الألمانية",
     "en": "الإنجليزية",
     "ar": "العربية",
@@ -17,7 +17,7 @@
     "ru": "الروسية",
     "label": "اللغة"
   },
-  "LoginPage": {
+  "login": {
     "credentials": "بيانات الدخول: jane@doe.com / next-intl",
     "description": "يرجى إدخال بياناتك.",
     "email": "البريد الإلكتروني",
@@ -28,24 +28,881 @@
     "password": "كلمة المرور",
     "title": "مرحبًا بعودتك"
   },
-  "HomePage": {
+  "home": {
     "title": "الصفحة الرئيسية",
     "description": "مرحبًا بك في الصفحة الرئيسية! هذا هو المكان الذي يمكنك العثور فيه على آخر التحديثات، المقالات المميزة، والموارد المفيدة لبدء استخدام منصتنا. استكشف محتوياتنا واستمتع بإقامتك!"
   },
-  "ProfilePage": {
+  "profile": {
     "title": "الملف الشخصي",
     "description": "إليك صفحة ملفك الشخصي! اعرض وقم بتحديث معلوماتك الشخصية، تتبع نشاطك، وادير تفضيلاتك. خصص تجربتك بما يتناسب مع احتياجاتك وابقَ على اتصال مع مجتمعك."
   },
-  "QuizPage": {
+  "quiz": {
     "title": "اختبار",
     "description": "إليك صفحة الاختبار الخاصة بك! اختر أحد الفئات أدناه، اختبر معرفتك بالموضوع، وتابع نتيجتك مقارنة بالآخرين!"
   },
-  "ErrorPage": {
+  "error": {
     "title": "حدث خطأ!",
     "description": "للأسف، واجهنا خطأ.يمكنك محاولة إعادة تحميل الصفحة التي كنت تزورها."
   },
-  "NotFoundPage": {
+  "notfound": {
     "title": "الصفحة غير موجودة",
     "description": "يرجى التحقق مرة أخرى من شريط العنوان في المتصفح أو استخدام التنقل للذهاب إلى صفحة معروفة."
+  },
+  "subject": {
+    "css": {
+      "questions": [
+        {
+          "question": "ما معنى CSS؟",
+          "options": [
+            "أوراق الأنماط المتسلسلة",
+            "أوراق الأنماط الكمبيوترية",
+            "نظام الأنماط الإبداعية",
+            "أوراق الأنماط الملونة"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما هو الخصائص المستخدمة لتغيير لون النص في CSS؟",
+          "options": ["color", "text-color", "font-color", "background-color"],
+          "answer": 0
+        },
+        {
+          "question": "ما هو التركيب الصحيح لتطبيق فئة في CSS؟",
+          "options": [
+            ".classname { ... }",
+            "#classname { ... }",
+            "*classname { ... }",
+            "classname { ... }"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي خصائص CSS تتحكم في حجم النص؟",
+          "options": ["font-size", "text-size", "size", "font-style"],
+          "answer": 0
+        },
+        {
+          "question": "كيف تجعل لون الخلفية شفافًا في CSS؟",
+          "options": [
+            "background-color: none",
+            "background-color: transparent",
+            "background: invisible",
+            "background-opacity: 0"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ما هو الوضع الافتراضي لموضع العنصر في CSS؟",
+          "options": ["static", "relative", "absolute", "fixed"],
+          "answer": 0
+        },
+        {
+          "question": "أي خصائص تستخدم لتحديد المسافة بين الأسطر النصية؟",
+          "options": [
+            "line-height",
+            "letter-spacing",
+            "text-spacing",
+            "height"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ماذا يفعل خاصية z-index في CSS؟",
+          "options": [
+            "يحدد حجم العنصر",
+            "يحدد ترتيب التكديس للعناصر",
+            "يحدد رؤية العنصر",
+            "يحدد محاذاة النص"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي فئة وهمية تستهدف أول طفل من عنصر؟",
+          "options": [":first", ":first-child", ":child(1)", ":first-element"],
+          "answer": 1
+        },
+        {
+          "question": "ما هو الغرض من قاعدة @media في CSS؟",
+          "options": [
+            "لتحديد الأنماط لأحجام الشاشات المختلفة أو الأجهزة",
+            "لاستيراد ملفات CSS الخارجية",
+            "لتحديد خصائص الخط",
+            "لإضافة الرسوم المتحركة للعناصر"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "html": {
+      "questions": [
+        {
+          "question": "ماذا يعني HTML؟",
+          "options": [
+            "لغة ترميز النص الفائق",
+            "لغة آلة النص الفائق",
+            "لغة الروابط والنصوص",
+            "لغة أدوات المنزل"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي وسم يستخدم لإنشاء رابط في HTML؟",
+          "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+          "answer": 0
+        },
+        {
+          "question": "ما هو الغرض من وسم <head> في مستند HTML؟",
+          "options": [
+            "لتحديد محتوى الجسم",
+            "لاحتواء البيانات الوصفية والروابط إلى الموارد الخارجية",
+            "لعرض المحتوى الرئيسي",
+            "لإنشاء العناوين"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي عنصر HTML يُستخدم لإدراج صورة؟",
+          "options": ["<img>", "<image>", "<picture>", "<src>"],
+          "answer": 0
+        },
+        {
+          "question": "أي سمة تُستخدم لتوفير نص بديل للصورة؟",
+          "options": ["title", "alt", "src", "description"],
+          "answer": 1
+        },
+        {
+          "question": "أي وسم يُستخدم لتعريف صف جدول في HTML؟",
+          "options": ["<tr>", "<td>", "<th>", "<row>"],
+          "answer": 0
+        },
+        {
+          "question": "ما هو وسم HTML الصحيح لأكبر عنوان؟",
+          "options": ["<h1>", "<heading>", "<h6>", "<head>"],
+          "answer": 0
+        },
+        {
+          "question": "أي سمة في HTML تُستخدم لتحديد معرف فريد لعنصر؟",
+          "options": ["class", "id", "name", "key"],
+          "answer": 1
+        },
+        {
+          "question": "كيف يمكنك إنشاء قائمة مرتبة في HTML؟",
+          "options": ["<ul>", "<ol>", "<li>", "<list>"],
+          "answer": 1
+        },
+        {
+          "question": "ماذا يفعل عنصر <form> في HTML؟",
+          "options": [
+            "ينشئ جدولًا",
+            "يعرّف حاوية للوسائط المتعددة",
+            "يجمع مدخلات المستخدم",
+            "يعرض محتوى النص"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "javascript": {
+      "questions": [
+        {
+          "question": "أي من التالي هو نوع بيانات في جافا سكربت؟",
+          "options": ["سلسلة نصية", "HTML", "CSS", "JSON"],
+          "answer": 0
+        },
+        {
+          "question": "ما هي الكلمة المفتاحية المستخدمة لإعلان متغير في جافا سكربت؟",
+          "options": ["var", "let", "const", "جميع ما سبق"],
+          "answer": 3
+        },
+        {
+          "question": "أي دالة تُستخدم لتحويل سلسلة JSON إلى كائن جافا سكربت؟",
+          "options": [
+            "JSON.stringify",
+            "JSON.parse",
+            "parseJSON",
+            "String.toJSON"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ما هي نتيجة `typeof null` في جافا سكربت؟",
+          "options": ["null", "object", "undefined", "string"],
+          "answer": 1
+        },
+        {
+          "question": "ماذا يفحص مشغل `===` في جافا سكربت؟",
+          "options": [
+            "مساواة القيمة والنوع",
+            "مساواة القيمة فقط",
+            "عدم المساواة في القيمة",
+            "لا شيء مما سبق"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي دالة تُستخدم لجدولة تنفيذ الكود بعد فترة زمنية معينة؟",
+          "options": ["setTimeout", "setInterval", "setTime", "schedule"],
+          "answer": 0
+        },
+        {
+          "question": "ما هو نطاق متغير `let` المُعلن عنه داخل كتلة؟",
+          "options": ["عالمي", "دالة", "كتلة", "لا شيء مما سبق"],
+          "answer": 2
+        },
+        {
+          "question": "ماذا يفعل دالة `Array.prototype.map`؟",
+          "options": [
+            "ترتيب المصفوفة",
+            "تصنيف المصفوفة",
+            "إنشاء مصفوفة جديدة مع العناصر المحولة",
+            "إزالة العناصر المكررة"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "أي من التالي ليس إطار عمل/مكتبة جافا سكربت؟",
+          "options": ["React", "Angular", "Django", "Vue"],
+          "answer": 2
+        },
+        {
+          "question": "ما هو الغرض من كائن `Promise` في جافا سكربت؟",
+          "options": [
+            "إدارة العمليات المتزامنة",
+            "إدارة العمليات غير المتزامنة",
+            "إجراء العمليات الحسابية",
+            "إدارة مستمعي الأحداث"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "nextjs": {
+      "questions": [
+        {
+          "question": "أي شركة أنشأت Next.js؟",
+          "options": ["جوجل", "Vercel", "فيسبوك", "أمازون"],
+          "answer": 1
+        },
+        {
+          "question": "ما الطريقة التي تجلب البيانات في كل طلب في Next.js؟",
+          "options": [
+            "getStaticProps",
+            "getServerSideProps",
+            "getInitialProps",
+            "useEffect"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ما هو سلوك العرض الافتراضي في Next.js؟",
+          "options": [
+            "العرض من جانب العميل",
+            "توليد الموقع الثابت",
+            "العرض من جانب الخادم",
+            "العرض الديناميكي"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي مكون يلف تطبيقك لإعدادات عالمية في Next.js App Router؟",
+          "options": ["_app.js", "layout.js", "_document.js", "page.js"],
+          "answer": 1
+        },
+        {
+          "question": "أي هوك حصري لـ Next.js للتوجيه؟",
+          "options": ["useNavigate", "useRouter", "useHistory", "useRoutes"],
+          "answer": 1
+        },
+        {
+          "question": "كيف يمكنك تمكين المسارات الديناميكية في Next.js؟",
+          "options": [
+            "إنشاء ملف `routes.js`",
+            "استخدام API `DynamicRoutes`",
+            "إضافة ملفات `[param]` في مجلد `pages` أو `app`",
+            "إضافة المسارات إلى `next.config.js`"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ماذا يعني ISR في Next.js؟",
+          "options": [
+            "العرض الفوري من الخادم",
+            "التجديد الثابت التزايدي",
+            "التوجيه الداخلي للحالة",
+            "العرض في الذاكرة من الخادم"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "كيف تحدد صفحة احتياطية لمسار ديناميكي؟",
+          "options": [
+            "باستخدام `getStaticProps`",
+            "باستخدام `fallback: true` في `getStaticPaths`",
+            "باستخدام `useRouter`",
+            "إضافة ملف `[fallback].js`"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ما هو الأمر الذي يبدأ خادم التطوير لـ Next.js؟",
+          "options": [
+            "npm run dev",
+            "npm run start",
+            "npx next-dev",
+            "npm build"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما الميزة التي تقدمها Next.js لمواقع الويب متعددة اللغات؟",
+          "options": [
+            "SSR",
+            "I18n",
+            "الاستيراد الديناميكي",
+            "التصديرات الثابتة"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "nodejs": {
+      "questions": [
+        {
+          "question": "ما هو Node.js؟",
+          "options": [
+            "إطار عمل للواجهة الأمامية",
+            "بيئة تشغيل لـ JavaScript",
+            "نظام إدارة قواعد البيانات",
+            "معالج CSS"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي وحدة تستخدم لإنشاء خادم في Node.js؟",
+          "options": ["http", "fs", "url", "net"],
+          "answer": 0
+        },
+        {
+          "question": "كيف تقوم بتثبيت حزمة في مشروع Node.js؟",
+          "options": [
+            "npm install <package>",
+            "node install <package>",
+            "install <package>",
+            "node get <package>"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما هو اسم الملف الافتراضي لنقطة الدخول لتطبيق Node.js؟",
+          "options": ["app.js", "server.js", "index.js", "main.js"],
+          "answer": 2
+        },
+        {
+          "question": "أي أمر يقوم بتهيئة مشروع Node.js جديد؟",
+          "options": ["npm init", "node init", "node create", "npm start"],
+          "answer": 0
+        },
+        {
+          "question": "ما هو الهدف من وحدة `fs` في Node.js؟",
+          "options": [
+            "إدارة عمليات نظام الملفات",
+            "إدارة طلبات HTTP",
+            "إنشاء الخوادم",
+            "التفاعل مع قواعد البيانات"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ماذا تفعل دالة `require()` في Node.js؟",
+          "options": [
+            "استيراد وحدة",
+            "تصدير دالة",
+            "تشغيل تطبيق Node.js",
+            "بدء الخادم"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي طريقة تستخدم لقراءة ملف بشكل متزامن في Node.js؟",
+          "options": [
+            "fs.readFile()",
+            "fs.readSync()",
+            "fs.readFileSync()",
+            "fs.syncRead()"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ما هو الهدف من middleware في Node.js؟",
+          "options": [
+            "الاتصال بقاعدة البيانات",
+            "إدارة استجابات HTTP",
+            "معالجة الطلبات قبل وصولها إلى معالج المسار",
+            "تقديم الملفات الثابتة"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "أي إطار عمل يُستخدم عادة مع Node.js لبناء تطبيقات الويب؟",
+          "options": ["Express", "React", "Vue", "Angular"],
+          "answer": 0
+        }
+      ]
+    },
+    "react": {
+      "questions": [
+        {
+          "question": "ما هو الاستخدام الأساسي لـ React؟",
+          "options": [
+            "تطوير الواجهة الخلفية",
+            "بناء واجهات المستخدم",
+            "إدارة قواعد البيانات",
+            "التصيير على الخادم"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "من الذي طور React؟",
+          "options": ["جوجل", "فيسبوك (ميتا)", "مايكروسوفت", "آبل"],
+          "answer": 1
+        },
+        {
+          "question": "ما هو JSX؟",
+          "options": [
+            "مكتبة JavaScript",
+            "إضافة بناء جملة لـ JavaScript",
+            "أداة للتحقق من النوع",
+            "إطار عمل CSS"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي هوك في React يستخدم لإدارة الحالة في مكون دالي؟",
+          "options": ["useEffect", "useState", "useReducer", "useRef"],
+          "answer": 1
+        },
+        {
+          "question": "ماذا يفعل هوك `useEffect`؟",
+          "options": [
+            "يدير أحداث دورة حياة المكونات",
+            "يدير تحديثات الحالة",
+            "يتفاعل مباشرة مع الـ DOM",
+            "يدير التوجيه في React"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما هو الـ DOM الافتراضي في React؟",
+          "options": [
+            "نسخة طبق الأصل من الـ DOM الحقيقي المخزنة في الذاكرة",
+            "أداة للاستعلامات في قواعد البيانات",
+            "طريقة للتصيير على الخادم",
+            "واجهة برمجة التطبيقات للمتصفح للتلاعب بـ DOM"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "كيف تمرر البيانات من المكون الأب إلى المكون الابن؟",
+          "options": [
+            "باستخدام props",
+            "باستخدام state",
+            "باستخدام context",
+            "باستخدام Redux"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ماذا يفعل `useRef` في React؟",
+          "options": [
+            "يدير تحديثات الحالة",
+            "ينشئ مرجعية إلى عنصر DOM أو قيمة",
+            "يدير العمليات غير المتزامنة",
+            "يعد التوجيه"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ما هو الغرض من مفاتيح React؟",
+          "options": [
+            "لتحديد العناصر الفريدة في قائمة",
+            "لإدارة تحديثات الحالة",
+            "لتحسين استدعاءات API",
+            "لتحكم في التوجيه"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما هي واجهة API Context في React؟",
+          "options": [
+            "إدارة الحالة المعقدة",
+            "مشاركة البيانات عبر المكونات دون حفر props",
+            "معالجة إرسال النماذج",
+            "تحسين الأداء"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "sql": {
+      "questions": [
+        {
+          "question": "ماذا تعني SQL؟",
+          "options": [
+            "لغة الاستعلام الهيكلية",
+            "لغة الاستعلام البسيطة",
+            "لغة الاستعلام السريعة الهيكلية",
+            "لغة استعلام النظام"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي جملة SQL تُستخدم لاسترجاع البيانات من قاعدة البيانات؟",
+          "options": ["SELECT", "GET", "RETRIEVE", "FETCH"],
+          "answer": 0
+        },
+        {
+          "question": "ماذا تفعل جملة WHERE في SQL؟",
+          "options": [
+            "تجمع الصفوف",
+            "تفلتر الصفوف بناءً على شرط",
+            "ترتب الصفوف",
+            "تحذف الصفوف"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي جملة SQL تُستخدم لإضافة سجل جديد إلى جدول؟",
+          "options": [
+            "INSERT INTO",
+            "ADD RECORD",
+            "CREATE RECORD",
+            "NEW RECORD"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ماذا تفعل جملة JOIN في SQL؟",
+          "options": [
+            "تدمج الصفوف من جداول متعددة",
+            "تحذف السجلات من جداول متعددة",
+            "تنشئ جدولًا جديدًا",
+            "تحديث جداول متعددة"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي كلمة SQL تُستخدم لترتيب نتائج الاستعلام؟",
+          "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+          "answer": 1
+        },
+        {
+          "question": "ماذا تفعل دالة COUNT في SQL؟",
+          "options": [
+            "تعد عدد الصفوف في جدول",
+            "تعد عدد الأعمدة في جدول",
+            "تعد عدد الحروف في سلسلة",
+            "تعد عدد الجداول في قاعدة البيانات"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي جملة SQL تُستخدم لحذف جدول من قاعدة البيانات؟",
+          "options": [
+            "DROP TABLE",
+            "DELETE TABLE",
+            "REMOVE TABLE",
+            "TRUNCATE TABLE"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما هو المفتاح الأساسي في SQL؟",
+          "options": [
+            "مُعرِّف فريد للصف في جدول",
+            "حقل يُستخدم لفرز البيانات",
+            "مفتاح احتياطي لجدول",
+            "مفتاح يُستخدم لفهرسة الأعمدة"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي جملة SQL تُستخدم لتجميع الصفوف التي تحتوي على نفس القيم؟",
+          "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+          "answer": 0
+        }
+      ]
+    },
+    "tailwindcss": {
+      "questions": [
+        {
+          "question": "What is Tailwind CSS?",
+          "options": [
+            "A CSS framework for pre-designed components",
+            "A utility-first CSS framework",
+            "A CSS-in-JS library",
+            "A browser rendering engine"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What is the primary file used to configure Tailwind CSS?",
+          "options": [
+            "tailwind.config.js",
+            "styles.css",
+            "tailwind.json",
+            "config.css"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Which command initializes a Tailwind CSS configuration file?",
+          "options": [
+            "tailwind init",
+            "tailwindcss create",
+            "npx tailwind init",
+            "npx tailwindcss config"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "How are custom colors added in Tailwind CSS?",
+          "options": [
+            "Directly in the HTML",
+            "In the tailwind.config.js file under the `extend` property",
+            "By using inline CSS styles",
+            "By creating a new CSS file"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "What utility class in Tailwind CSS applies padding to all sides?",
+          "options": ["p", "px", "py", "pd"],
+          "answer": 0
+        },
+        {
+          "question": "Which utility class centers an element horizontally in Tailwind CSS?",
+          "options": ["m-auto", "center", "mx-auto", "align-center"],
+          "answer": 2
+        },
+        {
+          "question": "What does the `@apply` directive in Tailwind CSS do?",
+          "options": [
+            "Imports Tailwind CSS into a project",
+            "Applies Tailwind utility classes within custom CSS",
+            "Generates responsive breakpoints",
+            "Compiles CSS faster"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "How can you enable dark mode in Tailwind CSS?",
+          "options": [
+            "By adding the `dark` class to elements",
+            "By configuring the `darkMode` property in tailwind.config.js",
+            "By using inline styles",
+            "By downloading a plugin"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Which prefix is used for hover styles in Tailwind CSS?",
+          "options": ["hover:", "onhover:", "hovered:", "h:"],
+          "answer": 0
+        },
+        {
+          "question": "What is the purpose of `purge` in Tailwind CSS configuration?",
+          "options": [
+            "To remove unused CSS",
+            "To clear the cache",
+            "To reset styles",
+            "To delete custom themes"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "typescript": {
+      "questions": [
+        {
+          "question": "ما هو TypeScript؟",
+          "options": [
+            "أداة لإدارة قواعد البيانات",
+            "لغة JavaScript مضافة إليها الكتابة الثابتة",
+            "مُعالج CSS",
+            "إصدار من JavaScript للمتصفحات القديمة"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي كلمة مفتاحية تُستخدم في TypeScript لتعريف نوع؟",
+          "options": [
+            "type",
+            "interface",
+            "كلا من type و interface",
+            "typedef"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ماذا تفعل الكلمة المفتاحية `as` في TypeScript؟",
+          "options": [
+            "تحدد نوع البيانات بشكل صريح",
+            "تنشئ مستعارًا لنوع البيانات",
+            "تعالج الاستثناءات",
+            "تحول تعبيرًا إلى نوع معين"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "ما هو امتداد الملف لملفات TypeScript؟",
+          "options": [".js", ".ts", ".tsx", ".jsx"],
+          "answer": 1
+        },
+        {
+          "question": "ما هو ميزة رئيسية لـ TypeScript مقارنة بـ JavaScript؟",
+          "options": [
+            "تحسين الأداء",
+            "التحقق الثابت من الأنواع",
+            "تبسيط بناء الجملة",
+            "توليد واجهات المستخدم تلقائيًا"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "كيف يمكن تعريف نوع الاتحاد في TypeScript؟",
+          "options": [
+            "باستخدام الرمز `&`",
+            "باستخدام الرمز `|`",
+            "باستخدام `:` قبل النوع",
+            "باستخدام `||` بين الأنواع"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ما هو هدف نوع `never` في TypeScript؟",
+          "options": [
+            "تمثيل القيم التي ستكون دائمًا صحيحة",
+            "تمثيل الشيفرة التي لا يمكن الوصول إليها أو الوظائف التي لا تعود أبدًا",
+            "تمثيل القيم الاختيارية",
+            "تمثيل المتغيرات غير المبدئية"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "كيف تحدد خاصية اختيارية في واجهة TypeScript؟",
+          "options": [
+            "بإضافة `؟` إلى اسم الخاصية",
+            "باستخدام الكلمة المفتاحية `optional`",
+            "بإضافة `undefined` كنمط",
+            "بإعلان الخاصية دون نوع"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "أي أمر يُترجم ملفات TypeScript إلى JavaScript؟",
+          "options": ["tsc", "compile-ts", "ts-build", "typescript-compile"],
+          "answer": 0
+        },
+        {
+          "question": "أي ميزة من TypeScript تسمح بإعادة استخدام الأنواع عبر الشيفرة؟",
+          "options": ["Generics", "Enums", "Modules", "Decorators"],
+          "answer": 0
+        }
+      ]
+    },
+    "vercel": {
+      "questions": [
+        {
+          "question": "ما هو الاستخدام الرئيسي لـ Vercel؟",
+          "options": [
+            "تطوير الألعاب",
+            "استضافة الويب الثابتة والديناميكية",
+            "استضافة التطبيقات المحمولة",
+            "تخزين البيانات"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "أي إطار عمل تم إنشاؤه بواسطة Vercel؟",
+          "options": ["React", "Next.js", "Vue.js", "Svelte"],
+          "answer": 1
+        },
+        {
+          "question": "أي أمر ينشر مشروعًا إلى Vercel؟",
+          "options": [
+            "vercel deploy",
+            "vc deploy",
+            "vercel push",
+            "deploy-now"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما نوع الوظائف التي يوفرها Vercel للمنطق الخلفي؟",
+          "options": [
+            "وظائف بلا خادم",
+            "خوادم مخصصة",
+            "حاويات",
+            "وظائف ذات حالة"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ما الذي يعمل عليه شبكة Vercel الحافة؟",
+          "options": [
+            "أداء الألعاب",
+            "توليد المواقع الثابتة",
+            "التوصيل العالمي والتخزين المؤقت",
+            "استعلامات قواعد البيانات"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ما هو اسم نظام النشر التجريبي في Vercel؟",
+          "options": [
+            "وضع المعاينة",
+            "نشر الفروع",
+            "إنشاءات الاختبار",
+            "معاينات النشر"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "ما هو الفرع الافتراضي للنشر الإنتاجي في Vercel؟",
+          "options": ["main", "master", "production", "deploy"],
+          "answer": 0
+        },
+        {
+          "question": "أي ميزة في Vercel تسمح بالتعاون في النشر؟",
+          "options": [
+            "رموز الوصول",
+            "الفرق",
+            "خطافات النشر",
+            "الروابط المشتركة"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "هل يمكنك نشر مشاريع غير Next.js على Vercel؟",
+          "options": [
+            "نعم",
+            "لا",
+            "فقط إذا كانت مشروع React",
+            "فقط إذا كانت مشروع Node.js"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "ماذا يقوم Vercel بإعداده تلقائيًا لكل نشر؟",
+          "options": [
+            "التكامل المستمر",
+            "اتصالات قواعد البيانات",
+            "HTTPS والنطاقات",
+            "طرق API"
+          ],
+          "answer": 2
+        }
+      ]
+    }
   }
 }

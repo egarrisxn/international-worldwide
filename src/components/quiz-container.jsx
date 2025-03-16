@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Quiz from "./quiz";
+import QuizComponent from "./quiz-component";
 import Button from "./button";
 
 export default function QuizContainer({ questions }) {
@@ -50,7 +50,7 @@ export default function QuizContainer({ questions }) {
       <div className="pb-4 pt-2 text-lg 2xl:text-xl">
         <p>Time Remaining: {timer}s</p>
       </div>
-      <Quiz
+      <QuizComponent
         questions={questions}
         answers={answers}
         onAnswer={handleAnswer}

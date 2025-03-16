@@ -21,7 +21,7 @@ export default function ThemeSwitcher() {
     <div className="relative">
       <Select.Root onValueChange={onChange}>
         <Select.Trigger
-          aria-label={t("Theme")}
+          aria-label={t("theme")}
           className={clsx(
             "rounded-lg p-2 transition-colors hover:bg-dropdownHover",
             isPending && "pointer-events-none opacity-60"

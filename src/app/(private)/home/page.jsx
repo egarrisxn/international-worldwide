@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-export default function HomePage() {
-  const t = useTranslations("HomePage");
+export default function Home() {
+  const t = useTranslations("home");
   return (
     <>
       <div className="flex flex-row items-center gap-1">

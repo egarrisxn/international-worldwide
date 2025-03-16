@@ -19,7 +19,7 @@ const loginFormSchema = z.object({
 
 async function loginAction(prev, data) {
   "use server";
-  const t = await getTranslations("LoginPage");
+  const t = await getTranslations("login");
   const values = Object.fromEntries(data);
 
   const result = await loginFormSchema
@@ -51,7 +51,7 @@ async function loginAction(prev, data) {
 }
 
 export default function LoginPage() {
-  const t = useTranslations("LoginPage");
+  const t = useTranslations("login");
   const locale = useLocale();
 
   return (

@@ -1,7 +1,12 @@
 "use client";
 import QuestionCard from "./question-card";
 
-export default function Quiz({ questions, answers, onAnswer, isSubmitted }) {
+export default function QuizComponent({
+  questions,
+  answers,
+  onAnswer,
+  isSubmitted,
+}) {
   if (!questions || questions.length === 0) {
     return <p>No questions available.</p>;
   }
