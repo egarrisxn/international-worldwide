@@ -1,18 +1,18 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
-import ThemeSwitcher from "../../components/theme-switcher";
-import LocaleSwitcher from "../../components/locale-switcher";
-import NavLink from "../../components/ui/nav-link";
-import GithubIcon from "../../components/icons/github-icon";
+import ThemeSwitcher from "@/components/theme-switcher";
+import LocaleSwitcher from "@/components/locale-switcher";
+import NavLink from "@/components/ui/nav-link";
+import GithubIcon from "@/components/icons/github-icon";
 
 export default function PrivateLayout({ children }) {
   const t = useTranslations("private");
 
   return (
-    <div className="flex grow flex-col">
+    <main className="flex grow flex-col">
       <header className="w-full border-b-2 shadow-lg">
-        <div className="mx-auto flex max-w-screen-2xl flex-row items-center justify-between px-4 py-5">
+        <div className="mx-auto flex max-w-(--breakpoint-2xl) flex-row items-center justify-between px-4 py-5">
           <nav className="flex flex-row items-center gap-6">
             <NavLink href="/home">{t("home")}</NavLink>
             <NavLink href="/quiz">{t("quiz")}</NavLink>
@@ -23,17 +23,17 @@ export default function PrivateLayout({ children }) {
           </div>
         </div>
       </header>
-      <div className="mx-auto flex w-full max-w-2xl grow flex-col px-4 py-10 sm:px-0">
+      <div className="mx-auto flex w-full max-w-2xl grow flex-col px-4 py-10 sm:px-0 xl:pt-20">
         {children}
       </div>
       <footer className="w-full">
-        <div className="mx-auto flex max-w-screen-2xl flex-row items-center justify-between px-4 py-5">
+        <div className="mx-auto flex max-w-(--breakpoint-2xl) flex-row items-center justify-between px-4 py-5">
           <div className="flex items-center">
             <GithubIcon />
           </div>
           <div>
             <Link
-              className="group flex flex-row items-center gap-1 font-semibold transition-all hover:text-button"
+              className="group hover:text-button flex flex-row items-center gap-1 font-semibold transition-all"
               href="/auth"
             >
               <p>{t("logout")}</p>
@@ -42,6 +42,6 @@ export default function PrivateLayout({ children }) {
           </div>
         </div>
       </footer>
-    </div>
+    </main>
   );
 }

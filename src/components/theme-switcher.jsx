@@ -23,25 +23,25 @@ export default function ThemeSwitcher() {
         <Select.Trigger
           aria-label={t("theme")}
           className={clsx(
-            "font-base rounded-base border-2 border-border p-2 text-sm shadow-shadow transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none",
+            "font-base rounded-base border-border shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY border-2 p-2 text-sm transition-all hover:shadow-none",
             isPending && "pointer-events-none opacity-60"
           )}
         >
           <Select.Icon>
-            <SunIcon className="size-6 text-button transition-colors" />
+            <SunIcon className="text-button size-6 transition-colors" />
           </Select.Icon>
         </Select.Trigger>
         <Select.Portal>
           <Select.Content
             align="end"
-            className="min-w-[8rem] overflow-hidden rounded-lg bg-dropdown py-0.5 shadow-md"
+            className="bg-dropdown min-w-[8rem] overflow-hidden rounded-lg py-0.5 shadow-md"
             position="popper"
           >
             <Select.Viewport>
               {themes.map((themeItem) => (
                 <Select.Item
                   key={themeItem}
-                  className="flex cursor-default items-center px-3 py-2 text-base data-[highlighted]:bg-dropdownHover"
+                  className="data-highlighted:bg-dropdownHover flex cursor-default items-center px-3 py-2 text-base"
                   value={themeItem}
                 >
                   <div className="mr-2 w-[1rem]">

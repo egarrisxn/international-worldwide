@@ -4,9 +4,10 @@
   "description": "Doing it worldwide with Next-Intl.",
   "id": "/",
   "start_url": "/",
-  "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
+  "orientation": "any",
+  "display": "standalone",
   "icons": [
     {
       "src": "/icon-192.png",

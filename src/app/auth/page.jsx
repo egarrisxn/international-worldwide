@@ -57,7 +57,7 @@ export default function AuthPage() {
   return (
     <div>
       <header className="w-full border-b shadow-xl">
-        <div className="mx-auto flex max-w-screen-2xl flex-row items-center justify-between px-4 py-5">
+        <div className="mx-auto flex max-w-(--breakpoint-2xl) flex-row items-center justify-between px-4 py-5">
           <div className="flex items-center">
             <Image
               src="/intl-wrld.png"
@@ -80,7 +80,7 @@ export default function AuthPage() {
           </div>
         </div>
       </header>
-      <div className="mx-auto w-full max-w-lg rounded-base border-2 border-border bg-white text-black shadow-shadow lg:mt-12 dark:bg-black dark:text-white">
+      <div className="rounded-base border-border shadow-shadow mx-auto w-full max-w-lg border-2 bg-white text-black lg:mt-12 dark:bg-black dark:text-white">
         <AuthForm
           key={locale}
           action={authAction}
@@ -105,7 +105,7 @@ export default function AuthPage() {
           header={
             <div className="text-center">
               <LanguageIcon className="mx-auto size-16" />
-              <h1 className="mt-4 text-4xl font-extrabold leading-none tracking-tight">
+              <h1 className="mt-4 text-4xl leading-none font-extrabold tracking-tight">
                 {t("title")}
               </h1>
               <p className="mt-2 text-slate-500">{t("description")}</p>

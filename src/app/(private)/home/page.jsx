@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
-import Button from "../../../components/ui/button";
+import Button from "@/components/ui/button";
 
 export default function Home() {
   const t = useTranslations("home");

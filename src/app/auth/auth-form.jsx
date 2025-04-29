@@ -8,10 +8,10 @@ export default function AuthForm({ action, fields, header, submit }) {
   return (
     <form
       action={formAction}
-      className="mx-auto mb-20 mt-12 w-full max-w-[24rem] px-4"
+      className="mx-auto mt-12 mb-20 w-full max-w-[24rem] px-4"
     >
       {header}
-      <div className="mb-10 mt-14">
+      <div className="mt-14 mb-10">
         {fields}
         {state?.success === false && (
           <div className="mt-4">

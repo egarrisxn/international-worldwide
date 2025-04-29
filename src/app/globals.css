@@ -1,10 +1,38 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "tw-animate-css";
 
-* {
-  -webkit-font-smoothing: antialiased;
-  @apply outline-sky-600;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-test: test 0s ease-out;
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes test {
+    from {
+      height: 0;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
 }
 
 @layer base {
@@ -25,10 +53,9 @@
     --border: #0ba6d1;
     --span-bg: linear-gradient(to right, #4e4e9e, #097fa5, #3e87ed);
 
+    --border-radius: 5px;
     --overlay: rgba(0, 0, 0, 0.8);
     --shadow: var(--box-shadow-x) var(--box-shadow-y) 0px 0px var(--border);
-
-    --border-radius: 5px;
     --box-shadow-x: 2px;
     --box-shadow-y: 3px;
     --reverse-box-shadow-x: -2px;
@@ -172,6 +199,56 @@
   }
 }
 
+@theme inline {
+  --font-sans: var(--font-geist), var(--rubik);
+  --background-image-span-bg: var(--span-bg);
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-button-secondary: var(--button-secondary);
+  --color-button-text: var(--button-text);
+  --color-text-secondary: var(--text-secondary);
+  --color-background-secondary: var(--background-secondary);
+  --color-secondary: var(--secondary);
+  --color-button: var(--button);
+  --color-selected: var(--selected);
+  --color-dropdown: var(--dropdown);
+  --color-dropdown-hover: var(--dropdown-hover);
+  --color-button-secondary: var(--button-secondary);
+  --color-border: var(--border);
+  --color-overlay: var(--overlay);
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  --shadow-shadow: var(--shadow);
+  --translate-box-shadow-x: 2px;
+  --translate-box-shadow-y: 3px;
+  --translate-reverse-box-shadow-x: -2px;
+  --translate-reverse-box-shadow-y: -3px;
+  --radius-base: 5px;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @media (width >= --theme(--breakpoint-sm)) {
+    max-width: none;
+  }
+  @media (width >= 1440px) {
+    max-width: 1440px;
+  }
+}
+
+@layer utilities {
+  * {
+    -webkit-font-smoothing: antialiased;
+    @apply outline-sky-600;
+  }
+}
+
 @layer base {
   *:lang(ar) {
     font-family: var(--rubik) !important;
@@ -179,8 +256,12 @@
   *:lang(fa) {
     font-family: var(--rubik) !important;
   }
-  * {
-    @apply border-border;
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
   }
   div::selection,
   h1::selection,
@@ -192,6 +273,9 @@
     background-color: rgb(121, 255, 225);
     text-shadow: rgb(0, 102, 255) 0px 0px 7px;
     color: rgb(248, 28, 229);
+  }
+  * {
+    @apply border-border;
   }
   body {
     @apply bg-background text-primary;

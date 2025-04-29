@@ -1,6 +1,6 @@
 export async function authUser(credentials) {
-  // In a real app, the credentials would be checked against a
-  // database and potentially a session token set in a cookie
+  // Just for testing.
+  // Will update soon.
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(

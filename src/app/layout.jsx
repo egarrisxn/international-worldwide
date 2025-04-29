@@ -49,13 +49,16 @@ export const metadata = {
     site: "@eg__xo",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/icon.png",
-    apple: "/apple-icon.png",
-  },
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: "default",
+    icon: {
+      url: "/icon.png",
+      sizes: "192x192",
+      type: "image/png",
+    },
+    apple: {
+      url: "/apple-icon.png",
+      sizes: "180x180",
+      type: "image/png",
+    },
   },
 };
 
