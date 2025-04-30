@@ -1,5 +1,30 @@
 {
   "theme": "Tema",
+  "landing": {
+    "heading": "¡Pon a prueba tus habilidades en desarrollo web a nivel mundial!",
+    "subheading": "Una plataforma simple con pruebas de desarrollo web en varios idiomas. Rétate y amplía tu conocimiento en tu idioma preferido.",
+    "features": "Características clave",
+    "feature1": {
+      "label": "Múltiples idiomas soportados",
+      "snippet": "Haz pruebas en: ar, de, en, es, fa, fr, ja, ru ¡y más próximamente!"
+    },
+    "feature2": {
+      "label": "Amplia gama de temas",
+      "snippet": "Explora pruebas sobre: CSS, HTML, JavaScript, Next.js, Node.js, React, SQL, Tailwind CSS, TypeScript, Vercel."
+    },
+    "feature3": {
+      "label": "Simple e intuitivo",
+      "snippet": "Disfruta de una interfaz limpia y directa para una experiencia de aprendizaje fluida."
+    },
+    "cta": "¡Comienza a responder!",
+    "login": "iniciar sesión"
+  },
+  "public": {
+    "logoP1": "Intl",
+    "logoP2": "Mundo",
+    "logoP3": "Global",
+    "logoAlt": "Icono internacional del mundo"
+  },
   "private": {
     "home": "Inicio",
     "logout": "Cerrar sesión",

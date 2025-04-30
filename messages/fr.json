@@ -1,5 +1,30 @@
 {
   "theme": "Thème",
+  "landing": {
+    "heading": "Testez vos compétences en développement web dans le monde entier !",
+    "subheading": "Une plateforme simple proposant des quiz en développement web dans plusieurs langues. Mettez-vous au défi et développez vos connaissances dans votre langue préférée.",
+    "features": "Fonctionnalités clés",
+    "feature1": {
+      "label": "Prise en charge de plusieurs langues",
+      "snippet": "Faites des quiz en : ar, de, en, es, fa, fr, ja, ru et bien d'autres à venir !"
+    },
+    "feature2": {
+      "label": "Large gamme de sujets",
+      "snippet": "Explorez des quiz sur : CSS, HTML, JavaScript, Next.js, Node.js, React, SQL, Tailwind CSS, TypeScript, Vercel."
+    },
+    "feature3": {
+      "label": "Simple et intuitif",
+      "snippet": "Profitez d'une interface claire et simple pour une expérience d'apprentissage fluide."
+    },
+    "cta": "Commencer le quiz !",
+    "login": "connexion"
+  },
+  "public": {
+    "logoP1": "Intl",
+    "logoP2": "Monde",
+    "logoP3": "Global",
+    "logoAlt": "Icône internationale du monde"
+  },
   "private": {
     "home": "Accueil",
     "logout": "Déconnexion",

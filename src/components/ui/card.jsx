@@ -1,12 +1,8 @@
 "use client";
+
 import * as RadioGroup from "@radix-ui/react-radio-group";
 
-export default function QuestionCard({
-  question,
-  answer,
-  isSubmitted,
-  onAnswer,
-}) {
+export default function Card({ question, answer, isSubmitted, onAnswer }) {
   return (
     <div className="rounded-base border-border shadow-shadow mx-auto w-full border-2 bg-white p-6 text-black dark:bg-black dark:text-white">
       <h2 className="leadning-none mb-4 text-xl font-extrabold tracking-tight">

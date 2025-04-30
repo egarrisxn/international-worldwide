@@ -1,5 +1,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://international-worldwide.vercel.app</loc>
+    <lastmod>2024-11-27T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>https://international-worldwide.vercel.app/auth</loc>
     <lastmod>2024-11-27T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>

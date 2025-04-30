@@ -1,5 +1,5 @@
 "use client";
-import QuestionCard from "./ui/quiz-card";
+import QuizCard from "../ui/card";
 
 export default function QuizComponent({
   questions,
@@ -15,7 +15,7 @@ export default function QuizComponent({
     <div>
       {questions.map((question, index) => (
         <div key={index} className="mb-4">
-          <QuestionCard
+          <QuizCard
             question={question}
             answer={answers[index]}
             isSubmitted={isSubmitted}

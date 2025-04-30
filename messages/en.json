@@ -1,5 +1,30 @@
 {
   "theme": "Theme",
+  "landing": {
+    "heading": "Test Your Web Development Skills Globally!",
+    "subheading": "A simple platform offering web development quizzes in multiple languages. Challenge yourself and expand your knowledge in your preferred language.",
+    "features": "Key Features",
+    "feature1": {
+      "label": "Multiple Languages Supported",
+      "snippet": "Take quizzes in: ar, de, en, es, fa, fr, ja, ru and more to come!"
+    },
+    "feature2": {
+      "label": "Wide Range of Topics",
+      "snippet": "Explore quizzes covering: CSS, HTML, JavaScript, Next.js, Node.js, React, SQL, Tailwind CSS, TypeScript, Vercel."
+    },
+    "feature3": {
+      "label": "Simple and Intuitive",
+      "snippet": "Enjoy a clean and straightforward interface for a seamless learning experience."
+    },
+    "cta": "Start Quizzing!",
+    "login": "login"
+  },
+  "public": {
+    "logoP1": "Intl",
+    "logoP2": "World",
+    "logoP3": "Wide",
+    "logoAlt": "International Worldwide Icon"
+  },
   "private": {
     "home": "Home",
     "logout": "Logout",

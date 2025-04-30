@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
+import Button from "../ui/button";
 import QuizComponent from "./quiz-component";
-import Button from "./ui/button";
 
 export default function QuizContainer({ questions }) {
   const [answers, setAnswers] = useState(

@@ -1,5 +1,30 @@
 {
   "theme": "テーマ",
+  "landing": {
+    "heading": "Web開発スキルを世界中でテストしよう！",
+    "subheading": "複数の言語でWeb開発のクイズに挑戦できるシンプルなプラットフォーム。自分を試して、好きな言語で知識を広げよう。",
+    "features": "主な特徴",
+    "feature1": {
+      "label": "複数言語に対応",
+      "snippet": "ar、de、en、es、fa、fr、ja、ru などでクイズを受けられます！"
+    },
+    "feature2": {
+      "label": "幅広いトピックをカバー",
+      "snippet": "CSS、HTML、JavaScript、Next.js、Node.js、React、SQL、Tailwind CSS、TypeScript、Vercel のクイズに挑戦しよう。"
+    },
+    "feature3": {
+      "label": "シンプルで直感的",
+      "snippet": "スムーズに学習できる、シンプルで分かりやすいインターフェース。"
+    },
+    "cta": "クイズを始めよう！",
+    "login": "ログイン"
+  },
+  "public": {
+    "logoP1": "インターナショナル",
+    "logoP2": "ワールド",
+    "logoP3": "ワイド",
+    "logoAlt": "国際的な地球アイコン"
+  },
   "private": {
     "home": "ホーム",
     "logout": "ログアウト",

@@ -1,5 +1,30 @@
 {
   "theme": "Thema",
+  "landing": {
+    "heading": "Teste deine Webentwicklungsfähigkeiten weltweit!",
+    "subheading": "Eine einfache Plattform mit Webentwicklungstests in mehreren Sprachen. Fordere dich selbst heraus und erweitere dein Wissen in deiner bevorzugten Sprache.",
+    "features": "Hauptfunktionen",
+    "feature1": {
+      "label": "Unterstützung mehrerer Sprachen",
+      "snippet": "Teste dein Wissen auf: ar, de, en, es, fa, fr, ja, ru und weiteren Sprachen!"
+    },
+    "feature2": {
+      "label": "Große Themenvielfalt",
+      "snippet": "Teste dich in CSS, HTML, JavaScript, Next.js, Node.js, React, SQL, Tailwind CSS, TypeScript, Vercel."
+    },
+    "feature3": {
+      "label": "Einfach und intuitiv",
+      "snippet": "Eine saubere und benutzerfreundliche Oberfläche für ein reibungsloses Lernerlebnis."
+    },
+    "cta": "Starte das Quiz!",
+    "login": "Anmelden"
+  },
+  "public": {
+    "logoP1": "Intl",
+    "logoP2": "Welt",
+    "logoP3": "Weit",
+    "logoAlt": "Internationales Welt-Icon"
+  },
   "private": {
     "home": "Startseite",
     "logout": "Abmelden",

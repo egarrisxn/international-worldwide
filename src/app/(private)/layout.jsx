@@ -1,10 +1,10 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+import { signOut } from "@/services/auth";
+import NavLink from "@/components/ui/link";
 import ThemeSwitcher from "@/components/theme-switcher";
-import LocaleSwitcher from "@/components/locale-switcher";
-import NavLink from "@/components/ui/nav-link";
-import GithubIcon from "@/components/icons/github-icon";
+import LocaleSwitcher from "@/components/locale-swticher";
+import GithubIcon from "@/components/icons/github";
 
 export default function PrivateLayout({ children }) {
   const t = useTranslations("private");
@@ -32,13 +32,20 @@ export default function PrivateLayout({ children }) {
             <GithubIcon />
           </div>
           <div>
-            <Link
-              className="group hover:text-button flex flex-row items-center gap-1 font-semibold transition-all"
-              href="/auth"
+            <form
+              action={async () => {
+                "use server";
+                await signOut({ redirectTo: "/" });
+              }}
             >
-              <p>{t("logout")}</p>
-              <ArrowLongRightIcon className="size-5 -translate-x-0.5 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:scale-x-105" />
-            </Link>
+              <button
+                type="submit"
+                className="group hover:text-button flex flex-row items-center gap-1 font-semibold transition-all"
+              >
+                <span>{t("logout")}</span>
+                <ArrowLongRightIcon className="size-5 -translate-x-0.5 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:scale-x-105" />
+              </button>
+            </form>
           </div>
         </div>
       </footer>

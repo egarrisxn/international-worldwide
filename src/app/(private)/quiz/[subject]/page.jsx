@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
-import QuizContainer from "../../../../components/quiz-container";
+import QuizContainer from "@/components/quiz/quiz-container";
 
-export default async function Subject({ params }) {
+export default async function QuizSubjectPage({ params }) {
   const { subject } = await params;
 
   const subjectKey = subject.toLowerCase();

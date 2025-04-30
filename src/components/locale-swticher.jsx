@@ -1,12 +1,12 @@
 import { useLocale, useTranslations } from "next-intl";
-import LocaleSwitcherSelect from "./locale-switcher-select";
+import LocaleSelector from "./locale-selector";
 
 export default function LocaleSwitcher() {
   const t = useTranslations("localeswitcher");
   const locale = useLocale();
 
   return (
-    <LocaleSwitcherSelect
+    <LocaleSelector
       defaultValue={locale}
       items={[
         { value: "en", label: "English (English)" },

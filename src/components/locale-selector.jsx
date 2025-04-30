@@ -3,9 +3,9 @@ import { useTransition } from "react";
 import * as Select from "@radix-ui/react-select";
 import clsx from "clsx";
 import { CheckIcon, LanguageIcon } from "@heroicons/react/24/solid";
-import { setUserLocale } from "../services/locale";
+import { setUserLocale } from "@/services/locale";
 
-export default function LocaleSwitcherSelect({ defaultValue, items, label }) {
+export default function LocaleSelector({ defaultValue, items, label }) {
   const [isPending, startTransition] = useTransition();
 
   function onChange(value) {

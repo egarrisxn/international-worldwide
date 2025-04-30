@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import Button from "@/components/ui/button";
 
-export default function Home() {
+export default function HomePage() {
   const t = useTranslations("home");
   return (
     <>
