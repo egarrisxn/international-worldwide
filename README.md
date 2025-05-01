@@ -48,7 +48,7 @@ Get up and running with International Worldwide in a few simple steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/egarrisxn/international-worldwide.git](https://github.com/egarrisxn/international-worldwide.git)
+    git clone https://github.com/egarrisxn/international-worldwide.git
     cd international-worldwide
     ```
 
