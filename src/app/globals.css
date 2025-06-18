@@ -3,39 +3,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
-  --animate-test: test 0s ease-out;
-  --animate-accordion-down: accordion-down 0.2s ease-out;
-  --animate-accordion-up: accordion-up 0.2s ease-out;
-
-  @keyframes test {
-    from {
-      height: 0;
-    }
-    to {
-      height: 0;
-    }
-  }
-
-  @keyframes accordion-down {
-    from {
-      height: 0;
-    }
-    to {
-      height: var(--radix-accordion-content-height);
-    }
-  }
-  @keyframes accordion-up {
-    from {
-      height: var(--radix-accordion-content-height);
-    }
-    to {
-      height: 0;
-    }
-  }
-}
-
-@layer base {
   :root {
     --primary: #333366;
     --secondary: #097fa5;
@@ -197,7 +164,6 @@
     --border: #d84c21;
     --span-bg: linear-gradient(to right, #8d82c4, #f7b7a3, #7d9dbf);
   }
-}
 
 @theme inline {
   --font-sans: var(--font-geist), var(--rubik);
@@ -229,6 +195,39 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+}
+
+@theme {
+  --animate-test: test 0s ease-out;
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes test {
+    from {
+      height: 0;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
 }
 
 @utility container {
