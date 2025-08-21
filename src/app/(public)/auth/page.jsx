@@ -13,12 +13,12 @@ export default function AuthPage() {
       <div className="rounded-base border-border shadow-shadow mx-auto w-full max-w-lg border-2 bg-white py-12 text-black lg:mt-12 dark:bg-black dark:text-white">
         <div className="text-center">
           <LanguageIcon className="mx-auto size-16" />
-          <h1 className="mt-4 text-4xl leading-none font-extrabold tracking-tight">
+          <h1 className="mt-4 text-4xl font-extrabold leading-none tracking-tight">
             {t("title")}
           </h1>
           <p className="mt-2 text-slate-500">{t("description")}</p>
         </div>
-        <div className="fex-row mx-auto flex items-center justify-center gap-2 pt-8 pb-12 sm:gap-4">
+        <div className="fex-row mx-auto flex items-center justify-center gap-2 pb-12 pt-8 sm:gap-4">
           <GitHubSignIn />
           <Button disabled>Google</Button>
           {/* <GoogleSignIn /> */}

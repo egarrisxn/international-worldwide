@@ -75,7 +75,10 @@ export default async function LocaleLayout({ children }) {
     >
       <head>
         <title>Int'l Worldwide</title>
-        <meta name='apple-mobile-web-app-title' content='International Worldwide' />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="International Worldwide"
+        />
       </head>
       <body className={clsx("flex min-h-[100vh] flex-col")}>
         <ThemeProvider

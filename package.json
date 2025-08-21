@@ -5,14 +5,6 @@
   "homepage": "https://international-worldwide.vercel.app",
   "license": "MIT",
   "private": true,
-  "keywords": [
-    "javascript",
-    "nextjs",
-    "next-int",
-    "react",
-    "tailwindcss",
-    "vercel"
-  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm run lint",
@@ -20,7 +12,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "next-lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --check \"**/*.{js,jsx}\" --cache",
     "format:fix": "prettier --write \"**/*.{js,jsx}\" --cache"
@@ -71,7 +62,8 @@
     "trailingComma": "es5",
     "plugins": [
       "prettier-plugin-tailwindcss"
-    ]
+    ],
+    "tailwindStylesheet": "./app/globals.css"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

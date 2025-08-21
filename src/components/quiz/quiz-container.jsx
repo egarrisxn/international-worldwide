@@ -47,7 +47,7 @@ export default function QuizContainer({ questions }) {
 
   return (
     <>
-      <div className="pt-2 pb-4 text-lg 2xl:text-xl">
+      <div className="pb-4 pt-2 text-lg 2xl:text-xl">
         <p>Time Remaining: {timer}s</p>
       </div>
       <QuizComponent

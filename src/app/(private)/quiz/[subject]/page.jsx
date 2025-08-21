@@ -11,7 +11,7 @@ export default async function QuizSubjectPage({ params }) {
 
   return (
     <>
-      <h1 className="pb-2 text-4xl leading-none font-semibold tracking-tight uppercase">
+      <h1 className="pb-2 text-4xl font-semibold uppercase leading-none tracking-tight">
         {subject}
       </h1>
       {questions.length > 0 ? (
