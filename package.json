@@ -9,65 +9,54 @@
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm run lint",
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "next lint --fix",
     "format": "prettier --check \"**/*.{js,jsx}\" --cache",
     "format:fix": "prettier --write \"**/*.{js,jsx}\" --cache"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "@radix-ui/react-avatar": "^1.1.7",
-    "@radix-ui/react-dialog": "^1.1.11",
-    "@radix-ui/react-dropdown-menu": "^2.1.12",
-    "@radix-ui/react-icons": "^1.3.0",
-    "@radix-ui/react-label": "^2.1.4",
-    "@radix-ui/react-popover": "^1.1.11",
-    "@radix-ui/react-radio-group": "^1.3.4",
-    "@radix-ui/react-select": "^2.2.2",
-    "@radix-ui/react-slot": "^1.2.0",
-    "@radix-ui/react-tabs": "^1.1.9",
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-radio-group": "^1.3.8",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.13",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lodash": "^4.17.21",
     "lucide-react": "^0.503.0",
-    "next": "15.3.1",
-    "next-auth": "5.0.0-beta.25",
-    "next-intl": "^3.0.0",
+    "next": "15.5.4",
+    "next-auth": "5.0.0-beta.29",
+    "next-intl": "^3.26.5",
     "next-themes": "^0.4.6",
-    "nextjs-toploader": "^3.8.16",
+    "nextjs-toploader": "^3.9.17",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "tailwind-merge": "^3.2.0",
-    "zod": "^3.24.3"
+    "tailwind-merge": "^3.3.1",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "@tailwindcss/postcss": "^4.1.4",
-    "eslint": "^9.25.1",
-    "eslint-config-next": "15.3.1",
-    "eslint-config-prettier": "^10.1.2",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.1.4",
-    "tw-animate-css": "^1.2.8"
-  },
-  "prettier": {
-    "bracketSpacing": true,
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": false,
-    "tabWidth": 2,
-    "trailingComma": "es5",
-    "plugins": [
-      "prettier-plugin-tailwindcss"
-    ],
-    "tailwindStylesheet": "./app/globals.css"
+    "@tailwindcss/postcss": "^4.1.14",
+    "eslint": "^9.37.0",
+    "eslint-config-next": "15.5.4",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.14",
+    "tw-animate-css": "^1.4.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "sharp"
+      "@tailwindcss/oxide",
+      "sharp",
+      "unrs-resolver"
     ]
   }
 }
