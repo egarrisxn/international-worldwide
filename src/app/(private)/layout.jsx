@@ -12,7 +12,7 @@ export default function PrivateLayout({ children }) {
   return (
     <main className="flex grow flex-col">
       <header className="w-full border-b-2 shadow-lg">
-        <div className="max-w-(--breakpoint-2xl) mx-auto flex flex-row items-center justify-between px-4 py-5">
+        <div className="mx-auto flex max-w-(--breakpoint-2xl) flex-row items-center justify-between px-4 py-5">
           <nav className="flex flex-row items-center gap-6">
             <NavLink href="/home">{t("home")}</NavLink>
             <NavLink href="/quiz">{t("quiz")}</NavLink>
@@ -27,7 +27,7 @@ export default function PrivateLayout({ children }) {
         {children}
       </div>
       <footer className="w-full">
-        <div className="max-w-(--breakpoint-2xl) mx-auto flex flex-row items-center justify-between px-4 py-5">
+        <div className="mx-auto flex max-w-(--breakpoint-2xl) flex-row items-center justify-between px-4 py-5">
           <div className="flex items-center">
             <GithubIcon />
           </div>
@@ -40,7 +40,7 @@ export default function PrivateLayout({ children }) {
             >
               <button
                 type="submit"
-                className="hover:text-button group flex flex-row items-center gap-1 font-semibold transition-all"
+                className="group flex flex-row items-center gap-1 font-semibold transition-all hover:text-button"
               >
                 <span>{t("logout")}</span>
                 <ArrowLongRightIcon className="size-5 -translate-x-0.5 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:scale-x-105" />

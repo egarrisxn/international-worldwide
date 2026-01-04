@@ -21,18 +21,18 @@ export default function LocaleSelector({ defaultValue, items, label }) {
         <Select.Trigger
           aria-label={label}
           className={clsx(
-            "font-base rounded-base border-border shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY border-2 p-2 text-sm transition-all hover:shadow-none",
+            "font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY rounded-base border-2 border-border p-2 text-sm shadow-shadow transition-all hover:shadow-none",
             isPending && "pointer-events-none opacity-60"
           )}
         >
           <Select.Icon>
-            <LanguageIcon className="text-button size-6 transition-colors" />
+            <LanguageIcon className="size-6 text-button transition-colors" />
           </Select.Icon>
         </Select.Trigger>
         <Select.Portal>
           <Select.Content
             align="end"
-            className="bg-dropdown min-w-[8rem] overflow-hidden rounded-lg py-0.5 shadow-md"
+            className="min-w-[8rem] overflow-hidden rounded-lg bg-dropdown py-0.5 shadow-md"
             position="popper"
           >
             <Select.Viewport>

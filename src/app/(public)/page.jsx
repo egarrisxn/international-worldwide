@@ -25,19 +25,19 @@ export default function LandingPage() {
           </h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
             <div>
-              <h3 className="pb-1 font-bold leading-5 2xl:text-lg">
+              <h3 className="pb-1 leading-5 font-bold 2xl:text-lg">
                 {t("feature1.label")}
               </h3>
               <p className="text-sm 2xl:text-base">{t("feature1.snippet")}</p>
             </div>
             <div>
-              <h3 className="pb-1 font-bold leading-5 2xl:text-lg">
+              <h3 className="pb-1 leading-5 font-bold 2xl:text-lg">
                 {t("feature2.label")}
               </h3>
               <p className="text-sm 2xl:text-base">{t("feature2.snippet")}</p>
             </div>
             <div>
-              <h3 className="pb-1 font-bold leading-5 2xl:text-lg">
+              <h3 className="pb-1 leading-5 font-bold 2xl:text-lg">
                 {t("feature3.label")}
               </h3>
               <p className="text-sm 2xl:text-base">{t("feature3.snippet")}</p>
@@ -55,13 +55,13 @@ export default function LandingPage() {
       </div>
 
       <footer className="w-full">
-        <div className="max-w-(--breakpoint-2xl) mx-auto flex flex-row items-center justify-between px-4 py-5">
+        <div className="mx-auto flex max-w-(--breakpoint-2xl) flex-row items-center justify-between px-4 py-5">
           <div className="flex items-center">
             <GithubIcon />
           </div>
           <div>
             <Link
-              className="hover:text-button group flex flex-row items-center gap-1 font-semibold transition-all"
+              className="group flex flex-row items-center gap-1 font-semibold transition-all hover:text-button"
               href="/auth"
             >
               <span>{t("login")}</span>
